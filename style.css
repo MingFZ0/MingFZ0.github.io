@@ -1,0 +1,44 @@
+/** {
+  border: 5px solid red;
+}*/
+
+
+.container {
+  display: block;
+  
+  width: 70%;
+  height: 550px;
+  border-radius: 25px;
+  border: 1px solid #000;
+  background-color: #a2bdcdaf;
+
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#aboutMe > * {
+  padding: 20px;
+  font-size: medium;
+  text-align: center;
+}
+
+p {
+  font-size: medium;
+  text-align: center;
+}
+
+#imgList {
+  text-align: center;
+}
+
+body {
+  background-image: url(background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0a1340;
+}
+
+
+
