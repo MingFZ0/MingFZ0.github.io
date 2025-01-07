@@ -1,7 +1,13 @@
 import '../App.css';
 import './Page.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
 import Overview from './Overview';
 import Mission from './Mission';
+import Projects from './Projects';
+import ScrollSlide from './ScrollSlide';
+
+
 
 
 function Page0() {
@@ -14,9 +20,8 @@ function Page0() {
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                 nisi ut aliquip ex ea commodo consequat. 
             </p>
-
             <Overview/>
-
+            <Projects/>
         </div>
     );
 }

@@ -40,8 +40,9 @@ function CarouselObj() {
         height={"600px"}
         layout={layoutPreset}
         aspectRatio={0.5}
+        showStatus={false}
       />
-    </div>
+      </div>
   )
 }
 
