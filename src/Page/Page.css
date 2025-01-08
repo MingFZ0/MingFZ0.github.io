@@ -28,3 +28,14 @@
     display: block;
     text-align: center;
 }
+
+.GallaryCardBar {
+    border: 1px black solid;
+    height: 100%;
+    width: 30px;
+}
+
+#ScrollSlideRange {
+    width: 100%;
+    accent-color: #27B7B6; 
+}

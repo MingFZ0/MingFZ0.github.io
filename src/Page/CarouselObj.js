@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-3d-carousel'
 import 'react-responsive-3d-carousel/dist/styles.css'
-import img1 from "./image1.jpg";
+import img1 from "./resources/image1.jpg";
 
 const items = [
   <img src={img1} alt="image1" />,

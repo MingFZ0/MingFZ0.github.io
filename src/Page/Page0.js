@@ -1,11 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import './Page.css';
-import 'bootstrap/dist/css/bootstrap.css';
+
 
 import Overview from './Overview';
 import Mission from './Mission';
 import Projects from './Projects';
-import ScrollSlide from './ScrollSlide';
+import Contact from './Contact';
 
 
 
@@ -22,6 +23,7 @@ function Page0() {
             </p>
             <Overview/>
             <Projects/>
+            <Contact/>
         </div>
     );
 }

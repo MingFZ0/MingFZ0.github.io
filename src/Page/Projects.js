@@ -4,7 +4,7 @@ import './Page.css';
 import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-3d-carousel'
 import 'react-responsive-3d-carousel/dist/styles.css'
-import img1 from "./image1.jpg";
+import img1 from "./resources/image1.jpg";
 import ScrollSlide from './ScrollSlide';
 
 const items = [
