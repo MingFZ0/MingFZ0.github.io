@@ -44,11 +44,11 @@ function ScrollSlide() {
   }
 
   return (
-    <div>
+    <div className="ScrollSlide">
       <div>
         {Items()}
       </div>
-      <Form>
+      <Form className='ScrollSlideControl'>
         <Row>
           <Col sm="1">
             <Label for="ScrollSlideRange">{Number(CurrentIndex)+1}/{ItemsArr.length}</Label>

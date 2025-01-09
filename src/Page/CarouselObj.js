@@ -32,16 +32,16 @@ const layoutPreset = {
 
 function CarouselObj() {
   return (
-    <div className="App">
+    <div style={{marginTop: "-15px"}}>
       <Carousel
         items={items}
         startIndex={0}
         onChange={(currentIndex) => console.log("Current Index is: " + currentIndex)}
-        height={"600px"}
+        height={"540px"}
         layout={layoutPreset}
         aspectRatio={0.5}
         showStatus={false}
-      />
+        />
       </div>
   )
 }

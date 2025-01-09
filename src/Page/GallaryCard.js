@@ -14,9 +14,9 @@ function GallaryCard(props) {
                     <div className='GallaryCardBar'></div>
                 </Col>
                 <Col sm={{size:4}} className='GallaryCardImg'>
-                    <img src={img} alt={imgAlt} width={250} height={250} style={{display: 'flex'}}/>
+                    <img src={img} alt={imgAlt} width={"100%"}/>
                     </Col>
-                <Col sm="6">
+                <Col className='GallaryCardDescription'>
                     <p>{text}</p>
                     </Col>
             </Row>
