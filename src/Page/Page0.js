@@ -3,14 +3,6 @@ import '../App.css';
 import './Page.css';
 import { useState } from 'react';
 
-
-
-import Overview from './Overview';
-import Mission from './Mission';
-import Projects from './Projects';
-import Contact from './Contact';
-
-
 const Themes = {
     white: {
         main: "",
@@ -40,15 +32,11 @@ function Page0() {
         <div className="Page0">
             
             <h1 className='Title' style={{color: theme.h1}}>Mingfeng Zhong</h1>
-            <Mission theme={theme}/>
             <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                 nisi ut aliquip ex ea commodo consequat. 
             </p>
-            <Overview theme={theme}/>
-            <Projects theme={theme}/>
-            <Contact theme={theme}/>
         </div>
     );
 }
