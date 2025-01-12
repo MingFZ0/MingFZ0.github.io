@@ -37,13 +37,13 @@ const layoutPreset = {
     }
   }
 
-function Projects() {
+function Projects(props) {
     return (
         <div>
-            <h1 className='Heading'>Projects</h1>
-            <div className='Underline'></div>
-            <ScrollSlide/>
-            <p className='TextDescription'>
+            <h1 className='Heading' style={{color: props.theme.h2}}>Projects</h1>
+            <div className='Underline' style={{borderBottom: "2px solid " + props.theme.underlineHeavy}}></div>
+            <ScrollSlide theme={props.theme}/>
+            <p className='TextDescription' style={{color: props.theme.text}}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                 nisi ut aliquip ex ea commodo consequat. 

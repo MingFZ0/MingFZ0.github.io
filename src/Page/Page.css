@@ -1,12 +1,22 @@
+@font-face {
+    font-family: "Dancing Script", serif;
+    src: url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap);
+    font-style: normal;
+}
+
 .Page0 > * {
     display: block;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 30px;
 }
 
 .Title {
     text-align: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: -5px;
 }
 
 .Heading {
@@ -15,9 +25,13 @@
     text-align: center;
 }
 
+.Heading, p {
+    font-family: "Dancing Script";
+    font-style: italic;
+}
+
 .Underline {
     display: block;
-    border-bottom: 1px black solid;
     width: 5em;
     margin-left: auto;
     margin-right: auto;
@@ -36,14 +50,12 @@
 }
 
 .GallaryCardBar {
-    border: 1px black solid;
     height: 100%;
     width: 50%;
     border-radius: 5px;
 }
 
 .GallaryCardDescription {
-    border: 1px black solid;
     border-radius: 5px;
     margin-left:1%;
     padding: 5px;
@@ -51,7 +63,6 @@
 
 .ScrollSlideControl {
     margin-top: 20px;
-    border: 1px black solid;
     border-radius: 10px;
     padding: 5px;
     padding-left: 10px;

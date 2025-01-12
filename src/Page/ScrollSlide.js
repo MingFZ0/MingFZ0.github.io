@@ -7,7 +7,7 @@ import GallaryCard from './GallaryCard';
 
 
 
-function ScrollSlide() {
+function ScrollSlide(props) {
   const [CurrentIndex, SetIndex] = useState(0);
   const ItemsArr = [
     [
@@ -27,31 +27,31 @@ function ScrollSlide() {
     ]
 ]
 
-  const Items = () => {
+  const Items = (props) => {
       let CardsArry = [];
 
       for (const item of ItemsArr) {
         let card = (
-          <GallaryCard img={item[0]} text={item[2]} imgAlt={item[1]}/>
+          <GallaryCard img={item[0]} text={item[2]} imgAlt={item[1]} theme={props.theme}/>
         );
         
         console.log(item);
         CardsArry.push(card);
       }
 
-      console.log(CardsArry[0][0]);
+      console.log(props.theme);
       return CardsArry[CurrentIndex];
   }
 
   return (
     <div className="ScrollSlide">
       <div>
-        {Items()}
+        {Items(props)}
       </div>
-      <Form className='ScrollSlideControl'>
+      <Form className='ScrollSlideControl' style={{border: "1px solid " + props.theme.underlineHeavy}}>
         <Row>
           <Col sm="1">
-            <Label for="ScrollSlideRange">{Number(CurrentIndex)+1}/{ItemsArr.length}</Label>
+            <Label for="ScrollSlideRange" style={{color: props.theme.h1}}>{Number(CurrentIndex)+1}/{ItemsArr.length}</Label>
             </Col>
           <Col>
             <Input className='hl-dark' id="ScrollSlideRange" name="range" type="range" defaultValue={0} plaintext={false} color='primary' onChange={(e) => SetIndex(e.target.value)} max={ItemsArr.length-1}/>

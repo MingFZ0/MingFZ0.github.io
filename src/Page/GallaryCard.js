@@ -11,13 +11,13 @@ function GallaryCard(props) {
         <Container className='GallaryCard'>
             <Row>
                 <Col sm="1">
-                    <div className='GallaryCardBar'></div>
+                    <div className='GallaryCardBar' style={{border: "1px solid " + props.theme.underlineHeavy}}></div>
                 </Col>
                 <Col sm={{size:4}} className='GallaryCardImg'>
-                    <img src={img} alt={imgAlt} width={"100%"}/>
+                    <img src={img} alt={imgAlt} width={"100%"} height={"300px"}/>
                     </Col>
-                <Col className='GallaryCardDescription'>
-                    <p>{text}</p>
+                <Col className='GallaryCardDescription' style={{border: "1px solid " + props.theme.underlineHeavy}}>
+                    <p style={{color: props.theme.text}}>{text}</p>
                     </Col>
             </Row>
             
