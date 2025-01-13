@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import './Page.css';
 import { useState } from 'react';
+import Header from './Header';
 
 const Themes = {
     white: {
@@ -30,7 +31,7 @@ function Page0() {
 
     return (
         <div className="Page0">
-            
+            <Header/>
             <h1 className='Title' style={{color: theme.h1}}>Mingfeng Zhong</h1>
             <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
