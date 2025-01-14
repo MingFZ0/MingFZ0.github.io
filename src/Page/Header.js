@@ -3,9 +3,9 @@ import { Row, Col, Button} from "reactstrap";
 
 import NavControl from "./components/NavControl";
 
-function Header() {
+function Header(props) {
     return(
-        <Navbar className="Header" fixed="top">
+        <Navbar className="Header" sticky="top" style={{backgroundColor: props.theme.background}}>
             <Row className="NavRow">
                 <Col>
                     <NavControl text="About"/>

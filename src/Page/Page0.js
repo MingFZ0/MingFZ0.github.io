@@ -32,7 +32,7 @@ function Page0() {
 
     return (
         <div className="Page0">
-            <Header/>
+            <Header theme={theme}/>
             <About/>
             <h1 className='Title' style={{color: theme.h1}}>Mingfeng Zhong</h1>
             <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
