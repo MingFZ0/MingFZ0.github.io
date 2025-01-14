@@ -5,10 +5,10 @@ import NavControl from "./components/NavControl";
 
 function Header() {
     return(
-        <div className="Header">
+        <Navbar className="Header" fixed="top">
             <Row className="NavRow">
                 <Col>
-                    <NavControl text="About Me"/>
+                    <NavControl text="About"/>
                     </Col>
                 <Col>
                     <NavControl text="Skills"/>
@@ -25,7 +25,7 @@ function Header() {
                     <NavControl text="Contact"/>
                     </Col>
             </Row>
-        </div>
+        </Navbar>
     )
 
 }

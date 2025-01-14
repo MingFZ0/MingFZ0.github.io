@@ -3,6 +3,7 @@ import '../App.css';
 import './Page.css';
 import { useState } from 'react';
 import Header from './Header';
+import About from './About';
 
 const Themes = {
     white: {
@@ -32,6 +33,7 @@ function Page0() {
     return (
         <div className="Page0">
             <Header/>
+            <About/>
             <h1 className='Title' style={{color: theme.h1}}>Mingfeng Zhong</h1>
             <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
