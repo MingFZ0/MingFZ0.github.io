@@ -1,0 +1,54 @@
+.Projects {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@keyframes slide-in {
+    0%   {left:200px;}
+    10%  {left:0px;}
+}
+
+.AnimeSlide {
+    position: relative;
+    animation-name: slide-in;
+    animation-duration: 5s;
+}
+
+.GallaryCard {
+    overflow: hidden;
+}
+
+.GallaryCardBar {
+    border: 1px black solid;
+    height: 100%;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.GallaryCardDescription {
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-left:1%;
+    padding: 5px;
+}
+
+.ScrollSlide {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ScrollSlideControl {
+    margin-top: 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+
+#ScrollSlideRange {
+    width: 100%;
+    accent-color: #27B7B6; 
+}
+

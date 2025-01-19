@@ -4,6 +4,7 @@ import './Page.css';
 import { useState } from 'react';
 import Header from './Header';
 import About from './About';
+import Projects from './Projects';
 
 const Themes = {
     white: {
@@ -34,7 +35,22 @@ function Page0() {
         <div className="Page0">
             <Header theme={theme}/>
             <About/>
-            <h1 className='Title' style={{color: theme.h1}}>Mingfeng Zhong</h1>
+            <Projects/>
+            <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. 
+            </p>
             <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
