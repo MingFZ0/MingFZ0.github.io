@@ -58,6 +58,13 @@ body {
     font-style: italic;
 }
 
+.Contact {
+    margin-top:40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
 .Title {
     font-size: x-large;
 }

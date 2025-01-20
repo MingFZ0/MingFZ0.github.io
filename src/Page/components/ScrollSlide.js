@@ -37,11 +37,11 @@ function ScrollSlide() {
           <GallaryCard img={item[0]} text={item[2]} imgAlt={item[1]}/>
         );
         
-        console.log(item);
+        // console.log(item);
         CardsArry.push(card);
       }
 
-      console.log(CardsArry[0][0]);
+      // console.log(CardsArry[0][0]);
       return CardsArry[CurrentIndex];
   }
 

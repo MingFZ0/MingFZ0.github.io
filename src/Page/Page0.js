@@ -2,9 +2,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import './Page.css';
 import { useState } from 'react';
+
 import Header from './Header';
 import About from './About';
+import Skills from './Skills';
 import Projects from './Projects';
+import Contact from './Contact';
 
 const Themes = {
     white: {
@@ -35,27 +38,9 @@ function Page0() {
         <div className="Page0">
             <Header theme={theme}/>
             <About/>
+            <Skills/>
             <Projects/>
-            <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. 
-            </p>
-            <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. 
-            </p>
-            <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. 
-            </p>
-            <p className='TextDescription' id='SelfSummary' style={{color: theme.text}}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. 
-            </p>
+            <Contact/>
         </div>
     );
 }

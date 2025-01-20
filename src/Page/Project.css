@@ -4,7 +4,7 @@
 }
 
 @keyframes slide-in {
-    0%   {left:200px;}
+    0%   {left:90%;}
     10%  {left:0px;}
 }
 
