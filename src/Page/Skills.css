@@ -5,6 +5,7 @@
     margin-right: 10%;
     height: 5em;
     overflow: hidden;
+    
 }
 
 @keyframes scrollLeft {
@@ -22,11 +23,9 @@
     width: 10em;
     text-align: center;
     line-height: 5em;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+    margin-left: 200px;
     border: 1px black solid;
     background-color: beige;
-    left: 100%;
 
     animation-name: scrollLeft;
     animation-duration: 10s;

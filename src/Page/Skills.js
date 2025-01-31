@@ -29,7 +29,7 @@ function Skills() {
     let displaySkills = () => { 
         let arr = []
         for (let index = 0; index < skills.length; index++) {
-            let animationTime = index * 3;
+            let animationTime = index * 1;
             let skill = skills[index];
             let p = <p className="Skill" style={{animationDelay: animationTime + 's'}}>{skill}</p>;
             arr.push(p)
