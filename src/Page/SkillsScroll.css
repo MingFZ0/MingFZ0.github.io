@@ -1,0 +1,58 @@
+/*  
+    Credit to Ryan Mulligan For this code 
+    https://ryanmulligan.dev/blog/css-marquee/ 
+*/
+
+/* Marquee styles */
+.marquee {
+    --gap: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+  }
+  
+.marquee__content {
+flex-shrink: 0;
+display: flex;
+justify-content: space-around;
+gap: var(--gap);
+min-width: 100%;
+}
+
+@keyframes scroll {
+from {
+    transform: translateX(0);
+}
+to {
+    transform: translateX(calc(-100% - var(--gap)));
+}
+}
+
+/* Pause animation when reduced-motion is set */
+@media (prefers-reduced-motion: reduce) {
+.marquee__content {
+    animation-play-state: paused !important;
+}
+}
+
+/* Enable animation */
+.marquee__content {
+animation: scroll 30s linear infinite;
+}
+
+/* Other page demo styles */
+.marquee__content > * {
+flex: 0 0 auto;
+background: dodgerblue;
+margin: 2px;
+padding: 1rem 2rem;
+border-radius: 0.25rem;
+text-align: center;
+}
+
+/* .marquee {
+border: 2px dashed lightgray;
+} */
+

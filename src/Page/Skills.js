@@ -1,8 +1,15 @@
 import { Carousel } from "react-responsive-3d-carousel";
 import TextCarousel from "./components/TextCarousel";
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import { useState } from "react";
+import "./SkillsScroll.css";
 import "./Skills.css";
 
 function Skills() {
+
+    const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => setIsOpen(!isOpen);
+
     let skills = [
         'Java',
         'Python',
@@ -22,25 +29,28 @@ function Skills() {
         'Agile Development Process (SCRUM)'
     ]
 
-    // let displaySkills = skills.map((skill) => {
-    //     let animationTime = 10 / skills.length * (skill.length - 1)
-    //     return <p className="Skill" style={{animationDelay: {animationTime}}}>{skill}</p>
-    //     })
     let displaySkills = () => { 
         let arr = []
         for (let index = 0; index < skills.length; index++) {
-            let animationTime = index * 1;
             let skill = skills[index];
-            let p = <p className="Skill" style={{animationDelay: animationTime + 's'}}>{skill}</p>;
+            let p = <li>{skill}</li>;
             arr.push(p)
             
         }
         return arr;
-        }
+    }
 
     return (
-        <div className="SkillsContainer">
-            {displaySkills()}
+        <div className="Skills">
+
+            <div className="marquee">
+                <ul class="marquee__content">
+                    {displaySkills()}
+                </ul>
+                <ul class="marquee__content">
+                    {displaySkills()}
+                </ul>
+            </div>
         </div>
     )
 }
