@@ -18,10 +18,9 @@
     overflow: hidden;
 }
 
-.GallaryCardBar {
+.GallaryCardButton {
     border: 1px black solid;
     height: 100%;
-    width: 20%;
     border-radius: 5px;
 }
 
@@ -35,6 +34,10 @@
 .ScrollSlide {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.ScrollSlideRadio {
+    
 }
 
 .ScrollSlideControl {

@@ -50,6 +50,12 @@ function ScrollSlide() {
       <div>
         {Items()}
       </div>
+      <div>
+        <input type='radio' className='ScrollSlideRadio' name='ScrollSlideRadio'></input>
+        <input type='radio' className='ScrollSlideRadio' name='ScrollSlideRadio'></input>
+        <input type='radio' className='ScrollSlideRadio' name='ScrollSlideRadio'></input>
+        <input type='radio' className='ScrollSlideRadio' name='ScrollSlideRadio'></input>
+      </div>
       <Form className='ScrollSlideControl'>
         <Row>
           <Col sm="1">
