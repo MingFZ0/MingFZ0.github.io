@@ -3,3 +3,9 @@
     height: 5em;
     background-color: rgb(254, 254, 254);
 }
+
+.Profile {
+    margin-left: 10%;
+    width: 50px;
+    position: absolute;
+}

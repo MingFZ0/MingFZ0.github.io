@@ -1,12 +1,14 @@
 import { Navbar, NavItem, NavLink, Nav } from "reactstrap";
 import { Row, Col, Button} from "reactstrap";
 
+import pfp from "./resources/profile_picture.jpg";
 import NavControl from "./components/NavControl/NavControl";
 import './Header.css';
 
 function Header(props) {
     return(
         <Navbar className="Header">
+           
             <Row className="NavRow">
                 <Col>
                     <NavControl text="About" link="#Top"/>
