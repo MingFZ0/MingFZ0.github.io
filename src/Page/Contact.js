@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "reactstrap"
 import linkedInImg from "./resources/linkedin.png"
 import GithubImg from "./resources/GitHub.png"
+import './Contact.css';
 
 function Contact() {
     return (

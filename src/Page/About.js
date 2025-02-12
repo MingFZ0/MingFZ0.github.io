@@ -1,4 +1,5 @@
 import fullImage from "./resources/AboutMe.jpg";
+import './About.css';
 
 function About() {
     return (
