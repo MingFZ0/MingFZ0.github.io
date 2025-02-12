@@ -4,6 +4,10 @@
     font-style: normal;
 }
 
+.Page0 {
+
+}
+
 .Heading, p, a, #Brand {
     font-family: "Dancing Script";
     font-style: italic;
@@ -27,6 +31,10 @@
 }
 
 .Subtitle {
+    font-size: large;
+}
+
+.Heading {
     font-size: large;
 }
 

@@ -6,24 +6,24 @@ import './Header.css';
 
 function Header(props) {
     return(
-        <Navbar className="Header" sticky="top" style={{backgroundColor: props.theme.background}}>
+        <Navbar className="Header">
             <Row className="NavRow">
                 <Col>
-                    <NavControl text="About"/>
+                    <NavControl text="About" link="#Top"/>
                     </Col>
                 <Col>
-                    <NavControl text="Skills"/>
+                    <NavControl text="Skills" link="#Skills"/>
                     </Col>
                 <Col sm="5">
                     <div className="NavControlDiv">
-                        <h2 color="light" className="NavControlButton Title">Mingfeng Zhong</h2>
+                        <h2 color="light" className="Title">Mingfeng Zhong</h2>
                         </div>
                     </Col>
                 <Col>
-                    <NavControl text="Projects"/>
+                    <NavControl text="Projects" link="#Projects"/>
                     </Col>
                 <Col>
-                    <NavControl text="Contact"/>
+                    <NavControl text="Contact" link="#Contact"/>
                     </Col>
             </Row>
         </Navbar>

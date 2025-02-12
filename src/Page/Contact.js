@@ -1,11 +1,13 @@
 import { Col, Container, Row } from "reactstrap"
 import linkedInImg from "./resources/linkedin.png"
 import GithubImg from "./resources/GitHub.png"
+import Subtitle from "./components/Subtitle/Subtitle";
 import './Contact.css';
 
 function Contact() {
     return (
-        <div className="Contact">
+        <div className="Contact" id="Contact">
+            <Subtitle text="Contact"/>
             <Row sm="2">
                 <Col sm="4">
                     <a href="https://www.linkedin.com/in/mingfeng-zhong-0b19712a0/">

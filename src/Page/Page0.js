@@ -36,6 +36,7 @@ function Page0() {
 
     return (
         <div className="Page0">
+            <div id='top'></div>
             <Header theme={theme}/>
             <About/>
             <Skills/>

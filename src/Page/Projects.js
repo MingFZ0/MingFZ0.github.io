@@ -4,7 +4,7 @@ import Subtitle from './components/Subtitle/Subtitle';
 
 function Projects() {
     return (
-        <div className='Projects'>
+        <div className='Projects' id="Projects">
             <Subtitle text="Projects"/>
             <ScrollSlide/>
         </div>

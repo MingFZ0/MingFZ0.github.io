@@ -11,6 +11,12 @@
     margin-top: 90%;
     height: 50%;
     border-radius: 10px;
+    z-index: -3;
+}
+
+.GallaryCardButton:hover {
+    background-color: antiquewhite;
+    filter:brightness(80%) sepia(1);
 }
 
 .GallaryCardDescription {

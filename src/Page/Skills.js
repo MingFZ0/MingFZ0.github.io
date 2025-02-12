@@ -24,7 +24,7 @@ function Skills() {
         let arr = []
         for (let index = 0; index < skills.length; index++) {
             let skill = skills[index];
-            let p = <li>{skill}</li>;
+            let p = <li className="Skill">{skill}</li>;
             arr.push(p)
             
         }
@@ -32,7 +32,7 @@ function Skills() {
     }
 
     return (
-        <div className="Skills">
+        <div className="Skills" id="Skills">
             <Subtitle text="Skills"/>
             <div className="marquee">
                 <ul class="marquee__content">

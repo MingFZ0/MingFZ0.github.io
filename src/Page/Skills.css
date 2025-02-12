@@ -3,6 +3,11 @@
     margin-right: 5%;
 }
 
+.Skill:hover {
+    background-color:antiquewhite;
+    scale: 1.25;
+}
+
 .marquee {
     /* border-radius: 50px; */
 }
