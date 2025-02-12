@@ -4,6 +4,8 @@ import { Form, Label, Input, FormGroup, Row, Container, Col, Button } from 'reac
 
 import RightArr from "../../resources/Right.svg";
 import LeftArr from "../../resources/Left.svg";
+import "./GallaryCard.css";
+
 
 function GallaryCard(props) {
     let img = props.img;

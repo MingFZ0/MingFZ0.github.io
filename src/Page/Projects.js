@@ -1,6 +1,6 @@
 import './Project.css';
-import ScrollSlide from './components/ScrollSlide';
-import Subtitle from './components/Subtitle';
+import ScrollSlide from './components/ScrollSlide/ScrollSlide';
+import Subtitle from './components/Subtitle/Subtitle';
 
 function Projects() {
     return (

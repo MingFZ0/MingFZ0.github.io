@@ -1,11 +1,12 @@
 import React, { useContext } from 'react'
 import { useState } from 'react';
 import { Form, Label, Input, FormGroup, Row, Col } from 'reactstrap'
-import GallaryCard from './ScrollSlideComponent/GallaryCard';
+import GallaryCard from './GallaryCard';
 
-import img1 from "../resources/image1.jpg";
-import img2 from "../resources/image2.png";
-import fullImage from "../resources/fullImage.png";
+import img1 from "../../resources/image1.jpg";
+import img2 from "../../resources/image2.png";
+import fullImage from "../../resources/fullImage.png";
+import "./ScrollSlide.css";
 
 function ScrollSlide() {
   const [Index, SetIndex] = useState({

@@ -1,4 +1,5 @@
 import { Button } from "reactstrap";
+import "./NavControl.css";
 
 function NavControl(props) {
     return (

@@ -9,8 +9,9 @@
     font-style: italic;
 }
 
-.SkillsContainer {
-    margin-top: 25px;
+.Projects {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .Contact {
@@ -18,13 +19,14 @@
 }
 
 .Skills {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .Title {
     font-size: x-large;
 }
 
-.SubtitleBox {
-    text-align: center;
+.Subtitle {
+    font-size: large;
 }
+

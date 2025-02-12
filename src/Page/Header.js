@@ -1,7 +1,7 @@
 import { Navbar, NavItem, NavLink, Nav } from "reactstrap";
 import { Row, Col, Button} from "reactstrap";
 
-import NavControl from "./components/NavControl";
+import NavControl from "./components/NavControl/NavControl";
 import './Header.css';
 
 function Header(props) {

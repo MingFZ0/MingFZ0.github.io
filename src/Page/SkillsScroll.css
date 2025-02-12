@@ -47,7 +47,8 @@ to {
 .marquee__content > * {
 flex: 0 0 auto;
 background: rgb(239, 239, 239);
-margin: 2px;
+margin-left: 2px;
+margin-right: 2px;
 padding: 1rem 2rem;
 border-radius: 0.25rem;
 text-align: center;

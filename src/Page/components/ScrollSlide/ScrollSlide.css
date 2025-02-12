@@ -1,0 +1,48 @@
+.ScrollSlide {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ScrollSlideControl {
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+@keyframes slide-right {
+    0%   {left:150%;}
+    10%  {left:0px;}
+}
+
+@keyframes slide-left {
+    0%   {right:150%;}
+    10%  {right:0px;}
+}
+
+@keyframes slide-down {
+    0%   {bottom:500px;}
+    10%  {bottom:0px;}
+}
+
+.AnimeSlideRight {
+    position: relative;
+    animation-name: slide-right;
+    animation-duration: 3s;
+    z-index: -5;
+}
+
+.AnimeSlideLeft {
+    position: relative;
+    animation-name: slide-left;
+    animation-duration: 3s;
+    z-index: -5;
+}
+
+.AnimeSlideDown {
+    position: relative;
+    animation-name: slide-down;
+    animation-duration: 3s;
+    z-index: -5;
+}
+

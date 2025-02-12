@@ -2,7 +2,8 @@ import { Carousel } from "react-responsive-3d-carousel";
 import TextCarousel from "./components/TextCarousel";
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import { useState } from "react";
-import Subtitle from "./components/Subtitle";
+import Subtitle from "./components/Subtitle/Subtitle";
+
 import "./SkillsScroll.css";
 import "./Skills.css";
 
