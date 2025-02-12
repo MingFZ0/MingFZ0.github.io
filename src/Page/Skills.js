@@ -2,6 +2,7 @@ import { Carousel } from "react-responsive-3d-carousel";
 import TextCarousel from "./components/TextCarousel";
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import { useState } from "react";
+import Subtitle from "./components/Subtitle";
 import "./SkillsScroll.css";
 import "./Skills.css";
 
@@ -14,19 +15,8 @@ function Skills() {
         'Java',
         'Python',
         'C/C++/C#',
-        'HTML/CSS/Javascript',
         'React',
-        'Angular',
-        'PostgreSQL',
-        'MySql',
-        'Flask',
-        'Bootstrap',
-        'Unity',
-        'Amazon Web Service (AWS)',
-        'Apache',
-        'Modular Design',
-        'Object Oriented Programming (OOP)',
-        'Agile Development Process (SCRUM)'
+        'SQL'
     ]
 
     let displaySkills = () => { 
@@ -42,7 +32,7 @@ function Skills() {
 
     return (
         <div className="Skills">
-
+            <Subtitle text="Skills"/>
             <div className="marquee">
                 <ul class="marquee__content">
                     {displaySkills()}

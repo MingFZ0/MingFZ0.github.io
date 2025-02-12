@@ -1,5 +1,5 @@
 /*  
-    Credit to Ryan Mulligan For this code 
+    Credit to Ryan Mulligan For the marquee code 
     https://ryanmulligan.dev/blog/css-marquee/ 
 */
 
@@ -8,7 +8,8 @@
     --gap: 1rem;
     position: relative;
     display: flex;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     user-select: none;
     gap: var(--gap);
   }
@@ -39,13 +40,13 @@ to {
 
 /* Enable animation */
 .marquee__content {
-animation: scroll 30s linear infinite;
+/* animation: scroll 30s linear infinite; */
 }
 
 /* Other page demo styles */
 .marquee__content > * {
 flex: 0 0 auto;
-background: dodgerblue;
+background: rgb(239, 239, 239);
 margin: 2px;
 padding: 1rem 2rem;
 border-radius: 0.25rem;
