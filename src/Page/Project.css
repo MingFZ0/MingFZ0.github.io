@@ -3,24 +3,54 @@
     margin-bottom: 100px;
 }
 
-@keyframes slide-in {
-    0%   {left:90%;}
+@keyframes slide-right {
+    0%   {left:150%;}
     10%  {left:0px;}
 }
 
-.AnimeSlide {
+@keyframes slide-left {
+    0%   {right:150%;}
+    10%  {right:0px;}
+}
+
+@keyframes slide-down {
+    0%   {bottom:500px;}
+    10%  {bottom:0px;}
+}
+
+.AnimeSlideRight {
     position: relative;
-    animation-name: slide-in;
-    animation-duration: 5s;
+    animation-name: slide-right;
+    animation-duration: 3s;
+    z-index: -5;
+}
+
+.AnimeSlideLeft {
+    position: relative;
+    animation-name: slide-left;
+    animation-duration: 3s;
+    z-index: -5;
+}
+
+.AnimeSlideDown {
+    position: relative;
+    animation-name: slide-down;
+    animation-duration: 3s;
+    z-index: -5;
 }
 
 .GallaryCard {
     overflow: hidden;
 }
 
+.GallaryCardImg {
+    padding-left: 0px;
+}
+
 .GallaryCardButton {
     border: 1px black solid;
-    height: 100%;
+    margin-top: 90%;
+    height: 50%;
     border-radius: 5px;
 }
 
@@ -36,22 +66,10 @@
     margin-right: 5%;
 }
 
-.ScrollSlideRadio {
-    
-}
-
 .ScrollSlideControl {
-    margin-top: 20px;
-    border: 1px black solid;
+    margin-top: 5px;
     border-radius: 10px;
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 50px;
-}
-
-#ScrollSlideRange {
-    width: 100%;
-    accent-color: #27B7B6; 
+    text-align: center;
 }
 
