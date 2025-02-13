@@ -1,7 +1,7 @@
 {
   "name": "react-resume",
   "version": "0.1.0",
-  "homepage": "https://MingFZ0.github.io/MingFZ0",
+  "homepage": "https://MingFZ0.github.io",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
