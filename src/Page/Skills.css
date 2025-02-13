@@ -1,12 +1,16 @@
 .Skills {
     margin-left: 5%;
     margin-right: 5%;
+    box-shadow: 4px 4px 4px 4px rgb(207, 218, 218);
+    padding-top: 10px;
+    border-radius: 10px;
 }
 
 .Skill:hover {
     background-color:antiquewhite;
     scale: 1.25;
 }
+
 
 .marquee {
     /* border-radius: 50px; */
