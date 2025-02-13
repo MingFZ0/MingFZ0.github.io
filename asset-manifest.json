@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/MingFZ0/static/css/main.e01dc03c.css",
-    "main.js": "/MingFZ0/static/js/main.27470877.js",
-    "static/js/156.df8994b9.chunk.js": "/MingFZ0/static/js/156.df8994b9.chunk.js",
-    "static/media/full_pic.jpg": "/MingFZ0/static/media/full_pic.bcf40647b0d0d274cbe8.jpg",
-    "static/media/JATOS.png": "/MingFZ0/static/media/JATOS.bf4993f0e41db2b084f4.png",
-    "static/media/ComboTutorial.png": "/MingFZ0/static/media/ComboTutorial.bb1f296473b7301db991.png",
-    "static/media/GitHub.png": "/MingFZ0/static/media/GitHub.81533a6b14da4c51db17.png",
-    "static/media/UFund.png": "/MingFZ0/static/media/UFund.74926cac1aaeb2386df2.png",
-    "static/media/NutriKit.png": "/MingFZ0/static/media/NutriKit.f28c73262390c03b653d.png",
-    "static/media/linkedin.png": "/MingFZ0/static/media/linkedin.43e96c58ca4ca5203686.png",
-    "static/media/pdf_icon.webp": "/MingFZ0/static/media/pdf_icon.509b375e5c9bcd8a204a.webp",
-    "static/media/logo.svg": "/MingFZ0/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/MingFZ0/index.html",
-    "static/media/Left.svg": "/MingFZ0/static/media/Left.427398f930ac5f7364c9e449830c75b6.svg",
-    "static/media/Right.svg": "/MingFZ0/static/media/Right.78050a0f10979b960bd8c909299060d7.svg",
-    "main.e01dc03c.css.map": "/MingFZ0/static/css/main.e01dc03c.css.map",
-    "main.27470877.js.map": "/MingFZ0/static/js/main.27470877.js.map",
-    "156.df8994b9.chunk.js.map": "/MingFZ0/static/js/156.df8994b9.chunk.js.map"
+    "main.css": "/static/css/main.e01dc03c.css",
+    "main.js": "/static/js/main.e69484b4.js",
+    "static/js/156.df8994b9.chunk.js": "/static/js/156.df8994b9.chunk.js",
+    "static/media/full_pic.jpg": "/static/media/full_pic.bcf40647b0d0d274cbe8.jpg",
+    "static/media/JATOS.png": "/static/media/JATOS.bf4993f0e41db2b084f4.png",
+    "static/media/ComboTutorial.png": "/static/media/ComboTutorial.bb1f296473b7301db991.png",
+    "static/media/GitHub.png": "/static/media/GitHub.81533a6b14da4c51db17.png",
+    "static/media/UFund.png": "/static/media/UFund.74926cac1aaeb2386df2.png",
+    "static/media/NutriKit.png": "/static/media/NutriKit.f28c73262390c03b653d.png",
+    "static/media/linkedin.png": "/static/media/linkedin.43e96c58ca4ca5203686.png",
+    "static/media/pdf_icon.webp": "/static/media/pdf_icon.509b375e5c9bcd8a204a.webp",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "static/media/Left.svg": "/static/media/Left.427398f930ac5f7364c9e449830c75b6.svg",
+    "static/media/Right.svg": "/static/media/Right.78050a0f10979b960bd8c909299060d7.svg",
+    "main.e01dc03c.css.map": "/static/css/main.e01dc03c.css.map",
+    "main.e69484b4.js.map": "/static/js/main.e69484b4.js.map",
+    "156.df8994b9.chunk.js.map": "/static/js/156.df8994b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e01dc03c.css",
-    "static/js/main.27470877.js"
+    "static/js/main.e69484b4.js"
   ]
 }
