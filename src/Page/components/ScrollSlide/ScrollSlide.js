@@ -3,9 +3,10 @@ import { useState } from 'react';
 import { Form, Label, Input, FormGroup, Row, Col } from 'reactstrap'
 import GallaryCard from './GallaryCard';
 
-import img1 from "../../resources/image1.jpg";
-import img2 from "../../resources/image2.png";
-import fullImage from "../../resources/fullImage.png";
+import UFundImg from "../../resources/UFund.png";
+import NutritKit from "../../resources/NutriKit.png";
+import ComboTutorialImg from "../../resources/ComboTutorial.png";
+import JATOSIMG from "../../resources/JATOS.png";
 import "./ScrollSlide.css";
 
 function ScrollSlide() {
@@ -15,19 +16,24 @@ function ScrollSlide() {
   });
   const ItemsArr = [
     [
-      img1,
+      UFundImg,
       "Alt For Image",
-      "Text Description"
+      "Worked in a team of 5 to create a fullstack charity website using Java, Sprint Boot and Angular to promote bee preservation and protections. Followed an agile development process and delivered the final product across in sprints. Utilized JaCoCo to conduct in-depth code covereage analysis and code review."
       ],
     [
-      img2,
-      "Alt For Image",
-      "Text Description2"
+      NutritKit,
+      "An image of a nutrient-tracking web app",
+      "A fullstack React web application that helps managing food items and viewing/ tracking nutritional information. Utilized PostgresSQL for data storage and Flask to create a REST API to communicate between frontend and backend. "
       ],
     [
-      fullImage,
-      "Alt For Image",
-      "Text Description3"
+      ComboTutorialImg,
+      "A screenshot of an unity project containing sprites from Dragon Ball Z",
+      "A experimental unity project that attempts to recreate the game Dragon Ball Z: Extreme Butōden. First implementation of software design patterns into game development to achieve object modularization within the code architecture. Created custom inspector code to import and export complex data structures into Unity's scriptable objects at runtime."
+      ],
+    [
+      JATOSIMG,
+      "A screenshot of a questionaire with a video player on the left",
+      "A multi-part questionaire that focuses on exploring the effects of fiction and nonfiction storytelling on the impact of recycling. Utilized Just Another Tool For Online Studies (JATOS) for user management and Apache to run the site on a proxy configuration on Amazon Web Services to achieve encryption. This was the lead project out of three developed in the Science Research Team at Midwood Highschool for interactive surveys and experiments for high school students."
     ]
 ]
 
