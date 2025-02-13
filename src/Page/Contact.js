@@ -23,7 +23,7 @@ function Contact() {
                     <p>GitHub</p>
                 </Col>
                 <Col sm="3">
-                    <a href="resume/Resume.pdf" type="application/pdf">
+                    <a href="/resume/Resume.pdf" type="application/pdf">
                         <img alt="Resume PDF Icon" src={PDFImg} width={40} height={40}/>
                     </a>
                     <p>Resume</p>
