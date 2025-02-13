@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MingFZ0/static/css/main.e01dc03c.css",
-    "main.js": "/MingFZ0/static/js/main.96d8a82e.js",
+    "main.js": "/MingFZ0/static/js/main.3914c738.js",
     "static/js/156.df8994b9.chunk.js": "/MingFZ0/static/js/156.df8994b9.chunk.js",
     "static/media/full_pic.jpg": "/MingFZ0/static/media/full_pic.bcf40647b0d0d274cbe8.jpg",
     "static/media/JATOS.png": "/MingFZ0/static/media/JATOS.bf4993f0e41db2b084f4.png",
@@ -16,11 +16,11 @@
     "static/media/Left.svg": "/MingFZ0/static/media/Left.427398f930ac5f7364c9e449830c75b6.svg",
     "static/media/Right.svg": "/MingFZ0/static/media/Right.78050a0f10979b960bd8c909299060d7.svg",
     "main.e01dc03c.css.map": "/MingFZ0/static/css/main.e01dc03c.css.map",
-    "main.96d8a82e.js.map": "/MingFZ0/static/js/main.96d8a82e.js.map",
+    "main.3914c738.js.map": "/MingFZ0/static/js/main.3914c738.js.map",
     "156.df8994b9.chunk.js.map": "/MingFZ0/static/js/156.df8994b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e01dc03c.css",
-    "static/js/main.96d8a82e.js"
+    "static/js/main.3914c738.js"
   ]
 }
