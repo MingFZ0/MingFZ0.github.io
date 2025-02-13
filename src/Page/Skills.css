@@ -1,0 +1,27 @@
+.Skills {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Skill:hover {
+    background-color:antiquewhite;
+    scale: 1.25;
+}
+
+.marquee {
+    /* border-radius: 50px; */
+}
+
+.marquee > * {
+    list-style-type: none;
+}
+
+.Details {
+    margin: 0 5% 0 5%;
+}
+
+#ExpandSkillsButton {
+    width: 100%;
+}
+
+

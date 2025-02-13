@@ -1,0 +1,14 @@
+.NavRow {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 100%;
+}
+
+.NavControlButton {
+    font-size: large;
+    color: grey;
+}
+
+.NavControlButton:hover {
+    color:burlywood;
+}

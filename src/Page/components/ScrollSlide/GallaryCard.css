@@ -1,0 +1,28 @@
+.GallaryCard {
+    overflow: hidden;
+}
+
+.GallaryCardImg {
+    padding-left: 0px;
+}
+
+.GallaryCardButton {
+    border: 1px rgba(255, 255, 255, 0) solid;
+    margin-top: 90%;
+    height: 50%;
+    border-radius: 10px;
+    z-index: -3;
+}
+
+.GallaryCardButton:hover {
+    background-color: antiquewhite;
+    filter:brightness(80%) sepia(1);
+}
+
+.GallaryCardDescription {
+    /* border: 1px black solid; */
+    background-color: rgb(239, 239, 239);
+    border-radius: 5px;
+    margin-left:1%;
+    padding: 5px;
+}

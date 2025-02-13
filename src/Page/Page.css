@@ -1,69 +1,40 @@
-.Page0 > * {
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 30px;
+@font-face {
+    font-family: "Dancing Script", serif;
+    src: url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap);
+    font-style: normal;
 }
 
-.Title {
-    text-align: center;
+.Page0 {
+
 }
 
-.Heading {
-    font-size: medium;
+.Heading, p, a, #Brand {
+    font-family: "Dancing Script";
     font-style: italic;
-    text-align: center;
 }
 
-.Underline {
-    display: block;
-    border-bottom: 1px black solid;
-    width: 5em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -5px;
-    margin-bottom: 5px;
-}
-
-.TextDescription {
-    display: block;
-    text-align: center;
-    margin-top: 30px;
-}   
-
-.ScrollSlide {
-    margin-top: 30px;
-}
-
-.GallaryCardBar {
-    border: 1px black solid;
-    height: 100%;
-    width: 50%;
-    border-radius: 5px;
-}
-
-.GallaryCardDescription {
-    border: 1px black solid;
-    border-radius: 5px;
-    margin-left:1%;
-    padding: 5px;
-}
-
-.ScrollSlideControl {
-    margin-top: 20px;
-    border: 1px black solid;
-    border-radius: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#ScrollSlideRange {
-    width: 100%;
-    accent-color: #27B7B6; 
+.Projects {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .Contact {
     margin-top:40px;
-    text-align: center;
 }
+
+.Skills {
+    margin-top: 20px;
+}
+
+.Title {
+    font-size: x-large;
+}
+
+.Subtitle {
+    font-size: large;
+}
+
+.Heading {
+    font-size: large;
+}
+
