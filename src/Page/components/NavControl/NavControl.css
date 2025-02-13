@@ -6,9 +6,9 @@
 
 .NavControlButton {
     font-size: large;
-    color: grey;
+    color: #2c6274;
 }
 
 .NavControlButton:hover {
-    color:burlywood;
+    color:#97cec7;
 }

@@ -1,5 +1,10 @@
 .Contact {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
+    box-shadow: 4px 4px 4px 4px rgb(165, 173, 173);
+    padding-top: 10px;
+    border-radius: 10px;
+    
+    margin-bottom: 50px;
 }

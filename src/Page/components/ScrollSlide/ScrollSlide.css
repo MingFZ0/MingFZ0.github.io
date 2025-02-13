@@ -29,20 +29,20 @@
     position: relative;
     animation-name: slide-right;
     animation-duration: 3s;
-    z-index: 0;
+    z-index: -3;
 }
 
 .AnimeSlideLeft {
     position: relative;
     animation-name: slide-left;
     animation-duration: 3s;
-    z-index: 0;
+    z-index: -3;
 }
 
 .AnimeSlideDown {
     position: relative;
     animation-name: slide-down;
     animation-duration: 3s;
-    z-index: 0;
+    z-index: -3;
 }
 

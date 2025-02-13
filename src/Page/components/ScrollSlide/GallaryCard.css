@@ -8,15 +8,17 @@
 
 .GallaryCardButton {
     border: 1px rgba(255, 255, 255, 0) solid;
+    box-shadow: 0 4px rgb(211, 215, 220);
+    background-color: #deedf2d2;
     margin-top: 90%;
     height: 50%;
     border-radius: 10px;
-    z-index: -3;
 }
 
 .GallaryCardButton:hover {
-    background-color: antiquewhite;
-    filter:brightness(80%) sepia(1);
+    background-color: #aedef3;
+    box-shadow: 0 0;
+    /* filter: invert(100%) sepia(14%) saturate(902%) hue-rotate(112deg) brightness(97%) contrast(90%); */
 }
 
 .GallaryCardDescription {

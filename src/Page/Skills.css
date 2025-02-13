@@ -1,13 +1,19 @@
 .Skills {
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 4px 4px 4px 4px rgb(207, 218, 218);
+    box-shadow: 4px 4px 4px 4px rgb(165, 173, 173);
     padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
 }
 
+.Skill {
+    background-color:#deedf2d2;
+    box-shadow: 0 2px rgb(189, 198, 198);
+}
+
 .Skill:hover {
-    background-color:antiquewhite;
+    background-color:#aedef3;
     scale: 1.25;
 }
 
