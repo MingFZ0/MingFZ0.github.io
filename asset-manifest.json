@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e8b6eca.css",
-    "main.js": "/static/js/main.7aab3c6a.js",
+    "main.css": "/static/css/main.0ee7e0d6.css",
+    "main.js": "/static/js/main.6438a136.js",
     "static/js/156.df8994b9.chunk.js": "/static/js/156.df8994b9.chunk.js",
     "static/media/full_pic.jpg": "/static/media/full_pic.bcf40647b0d0d274cbe8.jpg",
     "static/media/JATOS.png": "/static/media/JATOS.bf4993f0e41db2b084f4.png",
@@ -15,12 +15,12 @@
     "index.html": "/index.html",
     "static/media/Left.svg": "/static/media/Left.427398f930ac5f7364c9e449830c75b6.svg",
     "static/media/Right.svg": "/static/media/Right.78050a0f10979b960bd8c909299060d7.svg",
-    "main.7e8b6eca.css.map": "/static/css/main.7e8b6eca.css.map",
-    "main.7aab3c6a.js.map": "/static/js/main.7aab3c6a.js.map",
+    "main.0ee7e0d6.css.map": "/static/css/main.0ee7e0d6.css.map",
+    "main.6438a136.js.map": "/static/js/main.6438a136.js.map",
     "156.df8994b9.chunk.js.map": "/static/js/156.df8994b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e8b6eca.css",
-    "static/js/main.7aab3c6a.js"
+    "static/css/main.0ee7e0d6.css",
+    "static/js/main.6438a136.js"
   ]
 }
