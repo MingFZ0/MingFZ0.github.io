@@ -4,7 +4,7 @@ import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import { useState } from "react";
 import Subtitle from "./components/Subtitle/Subtitle";
 
-import "./SkillsScroll.css";
+// import "./SkillsScroll.css";
 import "./Skills.css";
 
 function Skills() {
@@ -34,14 +34,9 @@ function Skills() {
     return (
         <div className="Skills" id="Skills">
             <Subtitle text="Skills"/>
-            <div className="marquee">
-                <ul class="marquee__content">
-                    {displaySkills()}
-                </ul>
-                <ul class="marquee__content">
-                    {displaySkills()}
-                </ul>
-            </div>
+            <ul class="SkillList">
+                {displaySkills()}
+            </ul>
         </div>
     )
 }

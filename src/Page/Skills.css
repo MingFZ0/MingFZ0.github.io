@@ -6,10 +6,25 @@
     padding-bottom: 10px;
     border-radius: 10px;
 }
+.SkillList {
+    flex-shrink: 3;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    row-gap: 1em;
+}
 
 .Skill {
     background-color:#deedf2d2;
     box-shadow: 0 2px rgb(189, 198, 198);
+    /* flex: 0 0 auto; */
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    text-align: center;
 }
 
 .Skill:hover {
@@ -17,12 +32,7 @@
     scale: 1.25;
 }
 
-
-.marquee {
-    /* border-radius: 50px; */
-}
-
-.marquee > * {
+.SkillList > * {
     list-style-type: none;
 }
 
