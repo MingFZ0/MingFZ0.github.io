@@ -2,17 +2,21 @@
     overflow: hidden;
 }
 
-.GallaryCardImg {
-    padding-left: 0px;
+.GallaryCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .GallaryCardButton {
     border: 1px rgba(255, 255, 255, 0) solid;
     box-shadow: 0 4px rgb(211, 215, 220);
     background-color: #deedf2d2;
-    margin-top: 90%;
-    height: 50%;
+    height: 10em;
     border-radius: 10px;
+    flex: 0 1 0px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .GallaryCardButton:hover {
@@ -27,4 +31,7 @@
     border-radius: 5px;
     margin-left:1%;
     padding: 5px;
+    width: 40em;
+    align-self:stretch;
+    flex-basis: 0 100px;
 }
