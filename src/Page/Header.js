@@ -9,10 +9,10 @@ function Header(props) {
         <Navbar className="Header">
            
             <Row className="NavRow">
-                <Col>
+                <Col xm="1">
                     <NavControl text="About" link="#Top"/>
                     </Col>
-                <Col>
+                <Col xm="1">
                     <NavControl text="Skills" link="#Skills"/>
                     </Col>
                 <Col sm="5">
@@ -20,10 +20,10 @@ function Header(props) {
                         <h2 color="light" className="Title">Mingfeng Zhong</h2>
                         </div>
                     </Col>
-                <Col>
+                <Col xm="1">
                     <NavControl text="Projects" link="#Projects"/>
                     </Col>
-                <Col>
+                <Col xm="1">
                     <NavControl text="Contact" link="#Contact"/>
                     </Col>
             </Row>
