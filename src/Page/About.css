@@ -54,22 +54,15 @@
 @media (max-width: 450px) {
 
     #Brand {
-        top: -3svh;
+        top: -1em;
     }
 
     .AboutBgImg{
         margin-top: 5px;
         object-position: 10% 30%;
     }
-}
 
-@media (max-width: 450px) {
-
-    #Brand {
-        top: -1em;
-    }
-
-    .AboutBgImg{
-        margin-top: 5px;
+    #Summary {
+        padding-bottom: 3em;
     }
 }
