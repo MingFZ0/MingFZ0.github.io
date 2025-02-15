@@ -21,8 +21,8 @@
     background-color:#deedf2d2;
     box-shadow: 0 2px rgb(189, 198, 198);
     /* flex: 0 0 auto; */
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 1em;
+    margin-right: 1em;
     padding: 1rem 2rem;
     border-radius: 0.25rem;
     text-align: center;
@@ -31,7 +31,8 @@
 
 .Skill:hover {
     background-color:#aedef3;
-    scale: 1.25;
+    scale: 1.1;
+    margin: 0 1em 0 1em;
 }
 
 .SkillList > * {
