@@ -9,7 +9,7 @@ function Header(props) {
         <Navbar className="Header">
             <NavControl text="About" link="#Top"/>
             <NavControl text="Skills" link="#Skills"/>
-            <div className="NavControlDiv">
+            <div id="Name">
                 <h2 color="light" className="Title">Mingfeng Zhong</h2>
                 </div>
             <NavControl text="Projects" link="#Projects"/>

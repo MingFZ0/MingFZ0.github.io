@@ -40,8 +40,23 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
+
     .Header {
-        font-size: medium;
+        top: 2.5svh;
+    }
+
+    .Header .NavControlDiv {
+        margin-top: 3.2em;
+        display: inline-block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #Name {
+        position: absolute;
+        top: 0svh;
+        left: 10svw;
+        right: 10svw;
     }
 }
