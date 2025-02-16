@@ -54,9 +54,9 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 
     .ScrollSlideControl {
-        margin-top: 1em;
+        margin-top: 0.25em;
     }
 }
