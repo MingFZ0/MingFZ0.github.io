@@ -39,10 +39,22 @@
     }
 
     .GallaryCardImg {
-
+        order: 2;
+        
     }
 
     .GallaryCardDescription {
+        order: 3;
         color:red;
+        margin-top: 1em;
+    }
+
+    .GallaryCardButton {
+        order: 4;
+        height: 50%;
+        scale: 0.75;
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-bottom: 1em;
     }
 }

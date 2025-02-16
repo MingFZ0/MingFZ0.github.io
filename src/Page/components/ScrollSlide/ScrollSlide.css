@@ -46,3 +46,17 @@
     z-index: -3;
 }
 
+@media (max-width: 900px) {
+
+    .ScrollSlideControl {
+        margin-top: -3.5em;
+        padding-bottom: 3em;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .ScrollSlideControl {
+        margin-top: 1em;
+    }
+}

@@ -19,7 +19,7 @@ function GallaryCard(props) {
         return (
             <div className='GallaryCard' key={Math.random()}>
                 <div className='GallaryCardContainer'>
-                    <button className='GallaryCardButton' onClickCapture={() => 
+                    <button className='GallaryCardButton LeftButton' onClickCapture={() => 
                         props.onIndexChange(prevIndex, "AnimeSlideLeft")}>
                             <img src={LeftArr} width={50} height={50}></img>
                         </button>
@@ -30,7 +30,7 @@ function GallaryCard(props) {
                         <p>{text}</p>
                         <a href={url}>Visit Site</a>
                         </div>
-                    <button className='GallaryCardButton' onClickCapture={() => {
+                    <button className='GallaryCardButton RightButton' onClickCapture={() => {
                         props.onIndexChange(nextIndex, "AnimeSlideRight");}}>
                         <img src={RightArr} width={50} height={50}></img>
                     </button>
