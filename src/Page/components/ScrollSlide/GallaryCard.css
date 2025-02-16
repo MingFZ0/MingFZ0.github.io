@@ -1,24 +1,24 @@
 .GallaryCard {
     overflow: hidden;
-}
-
-.GallaryCardImg {
-    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .GallaryCardButton {
     border: 1px rgba(255, 255, 255, 0) solid;
     box-shadow: 0 4px rgb(211, 215, 220);
     background-color: #deedf2d2;
-    margin-top: 90%;
-    height: 50%;
+    height: 10em;
     border-radius: 10px;
+    flex: 0 1 0px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .GallaryCardButton:hover {
     background-color: #aedef3;
     box-shadow: 0 0;
-    /* filter: invert(100%) sepia(14%) saturate(902%) hue-rotate(112deg) brightness(97%) contrast(90%); */
 }
 
 .GallaryCardDescription {
@@ -27,4 +27,33 @@
     border-radius: 5px;
     margin-left:1%;
     padding: 5px;
+    width: 40em;
+    align-self:stretch;
+    flex-basis: 0 100px;
+}
+
+@media (max-width: 900px) {
+
+    .GallaryCard {
+        flex-wrap: wrap;
+    }
+
+    .GallaryCardImg {
+        order: 2;
+        
+    }
+
+    .GallaryCardDescription {
+        order: 3;
+        margin-top: 1em;
+    }
+
+    .GallaryCardButton {
+        order: 4;
+        height: 50%;
+        scale: 0.75;
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-bottom: 1em;
+    }
 }

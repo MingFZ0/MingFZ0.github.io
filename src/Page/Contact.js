@@ -9,26 +9,26 @@ function Contact() {
     return (
         <div className="Contact" id="Contact">
             <Subtitle text="Contact"/>
-            <Row sm="2">
-                <Col sm="4">
+            <ul className="ContactList">
+                <li className="ContactLink">
                     <a href="https://www.linkedin.com/in/mingfeng-zhong-0b19712a0/">
                         <img alt="LinkedIn Icon" src={linkedInImg} width={40} height={40}/>
                     </a>
                     <p>LinkedIn</p>
-                </Col>
-                <Col sm="3">
+                </li>
+                <li className="ContactLink">
                     <a href="https://github.com/MingFZ0">
                         <img alt="GitHub Icon" src={GithubImg} width={40} height={40}/>
                     </a>
                     <p>GitHub</p>
-                </Col>
-                <Col sm="3">
+                </li>
+                <li className="ContactLink">
                     <a href="./resume/Resume.html" target="_blank" type="application/pdf">
                         <img alt="Resume PDF Icon" src={PDFImg} width={40} height={40}/>
                     </a>
                     <p>Resume</p>
-                </Col>
-            </Row>
+                </li>
+            </ul>
             <Row>
                 <p>Contact Me via mingfengz1678@gmail.com</p>
             </Row>

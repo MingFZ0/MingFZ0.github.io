@@ -12,6 +12,7 @@
     width: fit-content;
     font-size: medium;
     font-style: italic;
+    color: rgba(65, 68, 68, 0.749);
 }
 
 .AboutBgImg {
@@ -33,10 +34,35 @@
     text-align: center;
     /* margin-left: 10%;
     margin-right: 10%; */
+    width: 100%;
     padding-top: 1em;
-    padding-bottom: 5%;
+    padding-bottom: 3em;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 0;
     background-color: rgba(255, 255, 255, 0.521);
+}
+
+@media (max-width: 700px) {
+    #Summary {
+        padding-top: 0.5em;
+        padding-bottom: 2em;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    #Brand {
+        top: -1em;
+    }
+
+    .AboutBgImg{
+        margin-top: 5px;
+        object-position: 10% 30%;
+    }
+
+    #Summary {
+        padding-bottom: 3em;
+    }
 }
