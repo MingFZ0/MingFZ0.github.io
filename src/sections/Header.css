@@ -7,7 +7,8 @@
     /* margin-left: 20%;
     margin-right: 20%; */
 
-    grid: 5px / 1fr 1fr 1fr 1fr 1fr; 
+    grid: 1rem / 1fr 1fr 1fr 1fr 1fr; 
+    column-gap: 10%;
     align-items: center;
     justify-content: space-between;
 }
@@ -20,6 +21,13 @@
     font-weight: 400;
     color: #5d5d5dFF;
     font-size: 36px;
+}
+
+#Header-Descriptor {
+    color: rgb(191, 191, 191);
+    font-size: 18px;
+    font-family: "Dancing Script";
+    font-weight: 400;
 }
 
 .Profile {
