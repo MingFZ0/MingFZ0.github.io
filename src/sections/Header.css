@@ -7,19 +7,19 @@
     /* margin-left: 20%;
     margin-right: 20%; */
 
-    grid: 1fr / 1fr 1fr 1fr 1fr 1fr; 
+    grid: 5px / 1fr 1fr 1fr 1fr 1fr; 
     align-items: center;
-    
+    justify-content: space-between;
 }
 
 #Header-Title {
-    margin: 0;
     display: inline-block;
     width: 15rem;
     font-family: "Alegreya Sans";
     font-style: normal;
     font-weight: 400;
     color: #5d5d5dFF;
+    font-size: 36px;
 }
 
 .Profile {
