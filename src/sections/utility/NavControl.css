@@ -1,0 +1,19 @@
+.NavRow {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 100%;
+}
+
+.NavControlButton {
+    font-size: large;
+    color: rgb(47, 134, 139);
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    font-style: italic;
+
+    border-bottom: 1px solid #58afbbFF;;
+}
+
+.NavControlButton:hover {
+    color:#97cec7;
+}

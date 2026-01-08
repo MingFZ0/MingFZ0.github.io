@@ -1,0 +1,78 @@
+.Header {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto auto; */
+    /* text-align: center; */
+    /* height: 5em; */
+    background-color: rgb(254, 254, 254);
+    /* margin-left: 20%;
+    margin-right: 20%; */
+
+    grid: 1fr / 1fr 1fr 1fr 1fr 1fr; 
+    align-items: center;
+    
+}
+
+#Header-Title {
+    margin: 0;
+    display: inline-block;
+    width: 15rem;
+    font-family: "Alegreya Sans";
+    font-style: normal;
+    font-weight: 400;
+    color: #5d5d5dFF;
+}
+
+.Profile {
+    margin-left: 10%;
+    width: 50px;
+    position: absolute;
+}
+
+@media (max-width: 1500px) {
+    .Header {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Header {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 800px) {
+    .Header {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .Header {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .Header {
+        top: 2.5svh;
+    }
+
+    .Header .NavControlDiv {
+        margin-top: 3.2em;
+        display: inline-block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #Name {
+        position: absolute;
+        top: 0svh;
+        left: 10svw;
+        right: 10svw;
+    }
+}
