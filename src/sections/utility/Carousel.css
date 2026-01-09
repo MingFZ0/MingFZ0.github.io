@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     grid-template-rows: 1fr;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
     align-items: start;
@@ -12,4 +12,45 @@
     justify-items: start;
     justify-content: start;
     column-gap: 50px;
+    overflow: auto;
+    padding-bottom: 30px;
+
+    scroll-behavior: smooth;
+}
+
+.Carousel-Container::-webkit-scrollbar {
+    height: 15px;
+    max-width: 30px;
+    scrollbar-width: thin;
+}
+
+.Carousel-Container::-webkit-scrollbar-track-piece:start {
+    margin-left: 7rem; 
+}
+
+.Carousel-Container::-webkit-scrollbar-track-piece:end {
+    margin-right: 7rem; 
+}
+
+/* Track */
+.Carousel-Container::-webkit-scrollbar-track-piece {
+  /* box-shadow: inset 0 0 5px #a9a9a9;
+  border-radius: 5px; */
+
+  outline: 2px solid #d1d1d1;
+  outline-offset: -10px;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+/* Handle */
+.Carousel-Container::-webkit-scrollbar-thumb {
+  /* background: #58afbb; */
+  /* border: 3px solid #58afbb; */
+  /* box-shadow: inset 0 0 0 2px red; */
+  outline: 3px solid #58afbb;
+  outline-offset: -10px;
+  padding: 1rem;
+  border-radius: 15px;
+
 }
