@@ -1,0 +1,19 @@
+.ItemPanel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.ItemPanel img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.ItemPanel p {
+    font-size: 18px;
+    color: #838282FF;
+}

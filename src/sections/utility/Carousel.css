@@ -1,0 +1,15 @@
+.Carousel-Container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    grid-template-rows: 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    align-items: start;
+    align-content: stretch;
+    justify-items: start;
+    justify-content: start;
+    column-gap: 50px;
+}
