@@ -1,0 +1,62 @@
+.ExperienceCard {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 30% 70%;
+
+    align-items: top;
+    align-content: stretch;
+    justify-items: center;
+    /* justify-content: stretch; */
+
+    margin:20px;
+    padding: 10px 10px 15px 10px;
+
+    border: 1px solid #8e8e8eFF;
+    border-radius: 10px;
+    
+}
+
+.ExperienceCard-Img {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.ExperienceCard-Display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: stretch;
+    /* justify-content: start; */
+    row-gap: 2px;
+}
+
+.ExperienceCard-Display > * {
+    text-align: left;
+    font-family: "Alegreya";
+    color: #8e8e8eFF;
+}
+
+.ExperienceCard-Date, .ExperienceCard-Title, .ExperienceCard-Company {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ExperienceCard-Date {
+    font-style: italic;
+}
+
+.ExperienceCard-Title {
+    width: 100%;
+    border-bottom: 1px solid #8e8e8eFF;
+}
+
+.ExperienceCard-Description {
+    margin-top: 2px;
+    font-size: 16px;
+    color: #8e8e8eFF;
+}
+
+

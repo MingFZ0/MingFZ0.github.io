@@ -78,6 +78,24 @@ button:focus-visible {
   src: url("./assets/fonts/WorkSans-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Alegreya";
+  src: url("./assets/fonts/Alegreya-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-weight: bold;
+  src: url("./assets/fonts/Alegreya-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-weight: bold;
+  font-style: italic;
+  src: url("./assets/fonts/Alegreya-BoldItalic.ttf");
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

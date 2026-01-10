@@ -3,7 +3,7 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 40% 60%;
-    margin: 70px 5% 0 5%;
+    margin: 70px 7% 0 7%;
 
     align-items: center;
     align-content: stretch;
@@ -14,8 +14,9 @@
 
 #Details-Sections {
     /* border: 1px solid black; */
-    padding: 50px 50px 200px 50px;
-    width: 40%;
+    padding: 50px 50px 50px 30px;
+    width: 100%;
+    border-right: 2px solid #464646;
     /* background-color: bisque; */
 }
 
@@ -23,12 +24,16 @@
     margin: 40px 0 40px 0;
 }
 
-#Details-Sections-Previous h4 {
+#Details-Sections > div > label {
+    font-family: "Work Sans";
+}
+
+#Details-Sections-Previous label {
     font-size: 18px;
     color: #cfcfcfFF;
 }
 
-#Details-Sections-Current h2 {
+#Details-Sections-Current label {
     font-size: 36px;
     color: #58afbbFF;
     margin-bottom: 5px;
@@ -42,14 +47,30 @@
     /* margin-bottom: 50px; */
 }
 
-#Details-Sections-Next h3 {
+#Details-Sections-Next label {
     font-size: 24px;
     color: #838282FF;
 }
 
 #Details-Cards {
-    border: 1px solid black;
-    background-color: linear-gradient(to bottom, rgba(166, 191, 204, 0.65) 0%,rgba(166, 191, 204, 0) 100%);
-    width: 100%;
+    /* border: 1px solid black; */
+    background: linear-gradient(to bottom, rgba(166, 191, 204, 0.65),rgba(166, 191, 204, 0));
+    border-radius: 15px;
+    width: 80%;
     height: 100%;
+}
+
+.Details-Sections-Radio {
+    appearance: none; /* Modern browsers */
+    -webkit-appearance: none; /* Safari/Chrome */
+    -moz-appearance: none; /* Firefox */
+        margin: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+}
+
+/* Optional: Remove when clicked */
+.Details-Sections-Radio:checked {
+    background-color: aqua;
 }
