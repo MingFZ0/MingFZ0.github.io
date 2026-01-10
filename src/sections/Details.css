@@ -1,0 +1,55 @@
+.Details {
+    /* margin-top: 70px; */
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 40% 60%;
+    margin: 70px 5% 0 5%;
+
+    align-items: center;
+    align-content: stretch;
+    justify-items: center;
+    justify-content: stretch;
+
+}
+
+#Details-Sections {
+    /* border: 1px solid black; */
+    padding: 50px 50px 200px 50px;
+    width: 40%;
+    /* background-color: bisque; */
+}
+
+#Details-Sections > * {
+    margin: 40px 0 40px 0;
+}
+
+#Details-Sections-Previous h4 {
+    font-size: 18px;
+    color: #cfcfcfFF;
+}
+
+#Details-Sections-Current h2 {
+    font-size: 36px;
+    color: #58afbbFF;
+    margin-bottom: 5px;
+}
+
+#Details-Sections-Current .BorderDiv {
+    display: flex;
+    justify-self: center;
+    width: 100px;
+    border-bottom: 2px solid #8b8b8bFF;
+    /* margin-bottom: 50px; */
+}
+
+#Details-Sections-Next h3 {
+    font-size: 24px;
+    color: #838282FF;
+}
+
+#Details-Cards {
+    border: 1px solid black;
+    background-color: linear-gradient(to bottom, rgba(166, 191, 204, 0.65) 0%,rgba(166, 191, 204, 0) 100%);
+    width: 100%;
+    height: 100%;
+}
