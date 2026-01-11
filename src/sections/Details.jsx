@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "./Details.css";
+import "./Details-1.css";
+import "./Details-2.css";
 
 import ReactIcon from "../assets/media/icons/ReactIcon.png";
 import ExperienceCard from "./utility/ExperienceCard";
@@ -14,6 +15,13 @@ function Details() {
     const [prevIndex, setPrevIndex] = useState(sections.length - 1);
 
     const Experiences = [
+        {
+            "Img": ReactIcon,
+            "Date": "Aug. 2025– Dec. 2025",
+            "Title": "Student Mentor",
+            "Company": "Society of Software Engineers",
+            "Description": "Evaluated student technical levels and tailored technical explanations to encourage the discovery of solutions to problems and course materials"
+        },
         {
             "Img": ReactIcon,
             "Date": "Aug. 2025– Dec. 2025",
@@ -123,7 +131,9 @@ function Details() {
                 </div>
             </form>
             <div id="Details-Cards">
+                <div id="Details-Cards-Background"></div>
                 {displayCards()}
+                
             </div>
         </div>
     )

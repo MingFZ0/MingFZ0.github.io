@@ -1,0 +1,60 @@
+#Details-Cards-Background {
+    /* position: absolute;
+    width: inherit;
+    height: inherit;
+    display: block;
+    top: 0;
+    bottom: 0;
+    width: 97%;
+    height: inherit;
+    z-index: -1;
+    background: linear-gradient(to bottom, rgba(166, 191, 204, 0.65),rgba(166, 191, 204, 0));
+    border-radius: 15px; */
+
+}
+
+#Details-Cards {
+    position: relative;
+    /* background: linear-gradient(to bottom, rgba(166, 191, 204, 0.65),rgba(166, 191, 204, 0)); */
+    /* border: 1px solid black; */
+    
+    border-radius: 15px;
+    width: 80%;
+    height: 400px;
+    overflow-y: scroll;
+    
+    padding-right: 20px; /* space between content and scrollbar */
+    box-sizing: content-box; /* ensures padding doesn't shrink content area */
+}
+
+#Details-Cards::-webkit-scrollbar {
+    margin-left: 30px;
+    /* outline: 1px solid black; */
+}
+
+#Details-Cards::-webkit-scrollbar-track {
+    
+}
+
+#Details-Cards::-webkit-scrollbar-track-piece {
+  /* box-shadow: inset 0 0 5px #a9a9a9;
+  border-radius: 5px; */
+
+  outline: 4px solid #d1d1d1;
+  outline-offset: -15px;
+  padding: 1rem;
+  border-radius: 15px;
+  
+}
+
+/* Handle */
+#Details-Cards::-webkit-scrollbar-thumb {
+  /* background: #58afbb; */
+  /* border: 3px solid #58afbb; */
+  /* box-shadow: inset 0 0 0 2px red; */
+  /* outline: 3px solid #58afbb;
+  outline-offset: -10px;
+  padding: 1rem;
+  border-radius: 15px; */
+
+}
