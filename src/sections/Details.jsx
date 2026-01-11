@@ -2,7 +2,10 @@ import { useState } from "react";
 import "./Details-1.css";
 import "./Details-2.css";
 
-import ReactIcon from "../assets/media/icons/ReactIcon.png";
+
+
+import SSE from "../assets/media/icons/company/sse.png";
+import mw from "../assets/media/icons/company/mwscience.png";
 import ExperienceCard from "./utility/ExperienceCard";
 
 function Details() {
@@ -16,18 +19,18 @@ function Details() {
 
     const Experiences = [
         {
-            "Img": ReactIcon,
+            "Img": SSE,
             "Date": "Aug. 2025– Dec. 2025",
             "Title": "Student Mentor",
             "Company": "Society of Software Engineers",
             "Description": "Evaluated student technical levels and tailored technical explanations to encourage the discovery of solutions to problems and course materials"
         },
         {
-            "Img": ReactIcon,
-            "Date": "Aug. 2025– Dec. 2025",
-            "Title": "Student Mentor",
-            "Company": "Society of Software Engineers",
-            "Description": "Evaluated student technical levels and tailored technical explanations to encourage the discovery of solutions to problems and course materials"
+            "Img": mw,
+            "Date": "Apr. 2022 – Apr. 2023",
+            "Title": "Online Research Programmer",
+            "Company": "Midwood Science at Midwood High School",
+            "Description": "Created and deployed web-apps using Apache2 on AWS for high school students for research projects"
         }
     ]
 
