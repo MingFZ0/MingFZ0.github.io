@@ -16,8 +16,9 @@
     /* border: 1px solid black; */
     padding: 50px 50px 50px 30px;
     width: 100%;
-    border-right: 2px solid #464646;
+    
     position: relative;
+    margin-right: 10%;
     /* background-color: bisque; */
 }
 

@@ -130,10 +130,11 @@ function Details() {
                     <label htmlFor={next}>{next}</label>
                 </div>
             </form>
-            <div id="Details-Cards">
+            <div id="Details-Cards-Group">
+                <div id="Details-Cards">
+                    {displayCards()}
+                </div>
                 <div id="Details-Cards-Background"></div>
-                {displayCards()}
-                
             </div>
         </div>
     )
