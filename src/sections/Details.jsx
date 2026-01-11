@@ -36,7 +36,7 @@ function Details() {
                     <label htmlFor={prev}>{prev}</label>
                 </div>
                 <div id="Details-Sections-Current">
-                    <input className="Details-Sections-Radio" name="Section" id={current} value={current} type="radio" />
+                    <input className="Details-Sections-Radio" name="Section" id={current} value={current} type="radio" checked/>
                     <label htmlFor={current}>{current}</label>
                     <div className="BorderDiv" />
                 </div>

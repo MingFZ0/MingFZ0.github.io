@@ -17,6 +17,7 @@
     padding: 50px 50px 50px 30px;
     width: 100%;
     border-right: 2px solid #464646;
+    position: relative;
     /* background-color: bisque; */
 }
 
@@ -65,12 +66,88 @@
     -webkit-appearance: none; /* Safari/Chrome */
     -moz-appearance: none; /* Firefox */
         margin: 0;
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    height: 10px;
     border-radius: 100%;
+    /* border: 1px solid black; */
+    margin: 5px;
 }
 
 /* Optional: Remove when clicked */
 .Details-Sections-Radio:checked {
-    background-color: aqua;
+    background: #9bccd3FF;
+}
+
+@keyframes Shift-up {
+    0% {
+        translate: 0px 50px;
+    }
+    100% {
+        /* translate: 0px -40px; */
+    }
+}
+
+@keyframes Next {
+    0% {
+        font-size: 18px;
+        color: #cfcfcfFF;
+    }
+    100% {
+        font-size: 24px;
+        color: #838282FF;
+    }
+}
+
+@keyframes Current {
+    0% {
+        font-size: 24px;
+        color: #838282FF;
+    }
+    100% {
+        font-size: 36px;
+        color: #58afbbFF;
+        margin-bottom: 5px;
+    }
+}
+
+@keyframes Prev {
+    0% {
+        font-size: 36px;
+        color: #58afbbFF;
+        margin-bottom: 5px;
+    }
+    100% {
+        font-size: 18px;
+        color: #cfcfcfFF;
+    }
+}
+
+#Details-Sections-Next {
+    animation-name: Shift-up;
+    animation-duration: 0.4s;
+}
+
+#Details-Sections-Next > label {
+    animation-name: Next;
+    animation-duration: 0.7s;
+}
+
+#Details-Sections-Current {
+    animation-name: Shift-up;
+    animation-duration: 0.4s;
+}
+
+#Details-Sections-Current > label {
+    animation-name: Current;
+    animation-duration: 0.7s;
+}
+
+#Details-Sections-Previous {
+    animation-name: Shift-up;
+    animation-duration: 0.4s;
+}
+
+#Details-Sections-Previous > label {
+    animation-name: Prev;
+    animation-duration: 0.7s;
 }
