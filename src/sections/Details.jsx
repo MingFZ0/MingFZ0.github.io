@@ -69,8 +69,22 @@ function Details() {
             "Img": uFund,
             "Title": "U-Fund: Save The Bees",
             "Type": "Full Stack",
-            "Tech": ["Angular", "Java"],
-            "Description": ""
+            "Tech": ["Angular", "Java", "Sprint Boot"],
+            "Description": "Charity website in which organizations can use to create and host events to promote bee preservation"
+        }, {
+            "Img": eater,
+            "Github": "https://github.com/MingFZ0/Eater-Unity",
+            "Title": "Eater",
+            "Type": "Full Stack",
+            "Tech": ["C#", "Unity"],
+            "Description": "A strategic survival card-game that scores the player based on the cards that are scored and played"
+        }, {
+            "Img": comboTutorial,
+            "Github": "https://github.com/MingFZ0/ComboTutorial",
+            "Title": "Combo Tutorial",
+            "Type": "Full Stack",
+            "Tech": ["C#", "Unity"],
+            "Description": "Proof of concept fighting game that utilizes a data-driven system to implement character attacks and movesets"
         }
     ]
 
