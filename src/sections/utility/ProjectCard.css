@@ -1,0 +1,56 @@
+.ProjectCard {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+    /* justify-content: stretch; */
+
+    margin:20px;
+    padding: 10px 30px 10px 30px;
+
+    border: 1px solid #8e8e8eFF;
+    border-radius: 10px;
+}
+
+.ProjectCard > * {
+    font-family: "Alegreya";
+    text-align: start;
+}
+
+.ProjectCard-Img {
+    margin: 20px auto 10px auto;
+    width: 100%;
+    height: 150px;
+    object-fit:cover;
+
+    border: 1px solid #dfdfdfFF;
+}
+
+.ProjectCard-Tech-Group {
+    margin-bottom: 5px;
+}
+
+.ProjectCard-Title {
+    color: #8e8e8eFF;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #8e8e8eFF;
+    width: 100%;
+}
+
+.ProjectCard-Description {
+    color: #8e8e8eFF;
+    font-size: 18px;
+}
+
+.ProjectCard-Links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: start;
+
+    margin: 0px 0px 0px auto;
+}

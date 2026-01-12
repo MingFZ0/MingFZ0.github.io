@@ -6,7 +6,12 @@ import "./Details-2.css";
 
 import SSE from "../assets/media/icons/company/sse.png";
 import mw from "../assets/media/icons/company/mwscience.png";
+import mediaPlayer from "../assets/media/screenshots/embedded.png";
+
 import ExperienceCard from "./utility/ExperienceCard";
+import ProjectCard from "./utility/ProjectCard";
+
+
 
 function Details() {
 
@@ -34,6 +39,19 @@ function Details() {
         }
     ]
 
+    const Projects = [
+        {
+            "Img": mediaPlayer,
+            "Github": "https://github.com/MingFZ0/MIDI-Embedded-Player",
+            "Title": "Embedded MIDI Music Player",
+            "Tech": ["Embedded", "C"],
+            "Description": "Recreated a fully functioning MIDI music player on an ARM Cortex Microcontroller using C with extremely accurate tone precision"
+        }
+    ]
+
+    let current = sections[displayIndex];
+    let prev = sections[prevIndex];
+    let next = sections[nextIndex];
 
     function getIndex(current, increment) {
         let size = sections.length;
@@ -86,7 +104,8 @@ function Details() {
 
         let ls = [];
         
-        Experiences.map((experience) => {
+        if (current == "Experience") {
+            Experiences.map((experience) => {
             ls.push(
                 <ExperienceCard 
                     Img={experience["Img"]} 
@@ -96,10 +115,25 @@ function Details() {
                     Description={experience["Description"]}
                     key={experience["Title"]}
                 />
-            )
-        })
+                )
+            })
+        }
+        else if (current == "Projects") {
+            Projects.map((project) => {
+                ls.push(
+                    <ProjectCard
+                        Img={project["Img"]}
+                        Title={project["Title"]}
+                        Tech={project["Tech"]}
+                        Description={project["Description"]}
+                        Github={project["Github"]}
+                    />
+                )
+            })
+        }
 
         return ls;
+        
     }
 
     const getSectionShiftName = (name) => {
@@ -109,10 +143,6 @@ function Details() {
             return ("ShiftDown-" + name);
         }
     }
-    
-    let current = sections[displayIndex];
-    let prev = sections[prevIndex];
-    let next = sections[nextIndex];
 
     console.log(prevIndex, displayIndex, nextIndex);
 
