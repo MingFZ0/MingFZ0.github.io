@@ -1,0 +1,10 @@
+.ProjectCardTag {
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+}
+
+.ProjectCardTag-Name {
+    font-size: 12px;
+    font-family: "Work Sans";
+    width: fit-content;
+}

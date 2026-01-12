@@ -29,7 +29,15 @@
 }
 
 .ProjectCard-Tech-Group {
-    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+
+    padding: 5px 0 5px 0;
+    gap: 5px;
 }
 
 .ProjectCard-Title {

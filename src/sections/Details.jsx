@@ -6,12 +6,16 @@ import "./Details-2.css";
 
 import SSE from "../assets/media/icons/company/sse.png";
 import mw from "../assets/media/icons/company/mwscience.png";
+
 import mediaPlayer from "../assets/media/screenshots/embedded.png";
+import pharma from "../assets/media/screenshots/pharma.png";
+import uFund from "../assets/media/screenshots/uFund.png";
+import nutrition from "../assets/media/screenshots/nutrition.png";
+import eater from "../assets/media/screenshots/eater.png";
+import comboTutorial from "../assets/media/screenshots/comboTutorial.png";
 
 import ExperienceCard from "./utility/ExperienceCard";
 import ProjectCard from "./utility/ProjectCard";
-
-
 
 function Details() {
 
@@ -44,8 +48,29 @@ function Details() {
             "Img": mediaPlayer,
             "Github": "https://github.com/MingFZ0/MIDI-Embedded-Player",
             "Title": "Embedded MIDI Music Player",
-            "Tech": ["Embedded", "C"],
+            "Type": "Embedded",
+            "Tech": ["C"],
             "Description": "Recreated a fully functioning MIDI music player on an ARM Cortex Microcontroller using C with extremely accurate tone precision"
+        }, {
+            "Img": pharma,
+            "Github": "https://github.com/MingFZ0/Management-Portal",
+            "Title": "Pharmaceutical Employee Portal",
+            "Type": "Full Stack",
+            "Tech": ["React.js", "MongoDB", "Deployment"],
+            "Description": "Develop an enterprise-scale full-stack React app to mimic the internal operation management of a medical company"
+        }, {
+            "Img": nutrition,
+            "Github": "https://github.com/MingFZ0/NutritionApp",
+            "Title": "Nutrition App",
+            "Type": "Full Stack",
+            "Tech": ["Java", "Sprint Boot"],
+            "Description": "Java terminal-based application used to manage daily nutrition intake and workout"
+        }, {
+            "Img": uFund,
+            "Title": "U-Fund: Save The Bees",
+            "Type": "Full Stack",
+            "Tech": ["Angular", "Java"],
+            "Description": ""
         }
     ]
 
@@ -124,6 +149,7 @@ function Details() {
                     <ProjectCard
                         Img={project["Img"]}
                         Title={project["Title"]}
+                        Type={project["Type"]}
                         Tech={project["Tech"]}
                         Description={project["Description"]}
                         Github={project["Github"]}
