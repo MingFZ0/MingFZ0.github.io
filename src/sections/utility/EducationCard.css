@@ -1,0 +1,67 @@
+.EducationCard {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 25% 70%;
+
+    align-items: top;
+    align-content: stretch;
+    justify-items: start;
+    /* justify-content: stretch; */
+
+    margin:20px;
+    padding: 10px 10px 15px 10px;
+
+    border: 1px solid #8e8e8eFF;
+    border-radius: 10px;
+    
+}
+
+.EducationCard-Img {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    margin-left: 10%;
+}
+
+.EducationCard-Display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: stretch;
+    /* justify-content: start; */
+    row-gap: 2px;
+}
+
+.EducationCard-Display > * {
+    text-align: left;
+    font-family: "Alegreya";
+    color: #8e8e8eFF;
+}
+
+.EducationCard-Date, .EducationCard-Title, .EducationCard-School {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.EducationCard-Date {
+    font-style: italic;
+}
+
+.EducationCard-School {
+    width: 100%;
+    border-bottom: 1px solid #8e8e8eFF;
+}
+
+.EducationCard-Description-Group {
+    margin-top: 2px;
+}
+
+.ExperienceCard-Description {
+    font-family: "Alegreya";
+    font-size: 16px;
+    color: #8e8e8eFF;
+}
+
+

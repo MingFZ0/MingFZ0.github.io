@@ -33,6 +33,10 @@ function ProjectCard(props) {
                     href={props.Github}
                     img={Github}/>
             )   
+        } else {
+            return (
+                <div style={{marginBottom: "10px"}}></div>
+            )
         }
     }
 

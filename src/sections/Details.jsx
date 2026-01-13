@@ -14,8 +14,12 @@ import nutrition from "../assets/media/screenshots/nutrition.png";
 import eater from "../assets/media/screenshots/eater.png";
 import comboTutorial from "../assets/media/screenshots/comboTutorial.png";
 
+import rit from "../assets/media/icons/company/rit.png";
+import midwood from "../assets/media/icons/company/midwood.png";
+
 import ExperienceCard from "./utility/ExperienceCard";
 import ProjectCard from "./utility/ProjectCard";
+import EducationCard from "./utility/EducationCard";
 
 function Details() {
 
@@ -85,6 +89,21 @@ function Details() {
             "Type": "Full Stack",
             "Tech": ["C#", "Unity"],
             "Description": "Proof of concept fighting game that utilizes a data-driven system to implement character attacks and movesets"
+        }
+    ]
+
+    const Education = [
+        {
+            "Img": rit,
+            "Date": "Aug. 2023 - May 2028",
+            "School": "Rochester Institute of Technology",
+            "Description": ["GPA: 3.25/4.0", "Major: Software Engineer B.S", "Minor: Game Design and Development"]
+        },
+        {
+            "Img": midwood,
+            "Date": "Sep. 2019 - Jun. 2023",
+            "School": "Midwood High School",
+            "Description": ["GPA: 4.0/4.0"]
         }
     ]
 
@@ -167,6 +186,18 @@ function Details() {
                         Tech={project["Tech"]}
                         Description={project["Description"]}
                         Github={project["Github"]}
+                    />
+                )
+            })
+        }
+        else if (current == "Education") {
+            Education.map((edu) => {
+                ls.push(
+                    <EducationCard
+                        Img={edu["Img"]}
+                        Date={edu["Date"]}
+                        School={edu["School"]}
+                        Description={edu["Description"]}
                     />
                 )
             })
