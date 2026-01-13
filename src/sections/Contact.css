@@ -1,0 +1,75 @@
+.Contact {
+    margin: 70px 5% 0 5%;
+}
+
+#Contact-Title {
+    font-size: 36px;
+}
+
+.Contact-BorderDiv {
+    display: flex;
+    justify-self: center;
+    width: 100px;
+    border-bottom: 2px solid #8b8b8bFF;
+    margin-bottom: 50px;
+}
+
+.Contact-MessageGroup-pfp {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.Contact-MessageGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto 1fr;
+    align-items: start;
+    align-content: stretch;
+    justify-items: start;
+    justify-content: start;
+    column-gap: 10px;
+}
+
+.Contact-MessageGroup-Message > * {
+    text-align: left;
+}
+
+.Contact-MessageGroup-Message > p {
+    color: #464646FF;
+}
+
+.Contact-MessageGroup-email {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    align-content: stretch;
+    justify-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+    padding: 3px 10px 3px 10px;
+
+    border: 1px solid #58afbbFF;
+    border-radius: 10px;
+}
+
+.Contact-MessageGroup-email > img {
+    width: 25px;
+    height: 25px;
+}
+
+.Contact-MessageGroup-email > p {
+    color: #58afbbFF;
+    font-weight: bold;
+}
+
+
+
+
+
