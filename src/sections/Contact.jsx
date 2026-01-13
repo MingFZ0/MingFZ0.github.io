@@ -1,6 +1,7 @@
 import "./Contact.css";
 import pfp from "../assets/media/pfp.png";
 import mail from "../assets/media/icons/mail.png";
+import EmailForm from "./utility/EmailForm";
 
 function Contact() {
     return (
@@ -20,9 +21,7 @@ function Contact() {
             </div>
             <div className="Contact-Form">
                 <div className="Contact-Form-Display">
-                    <div className="">
-
-                    </div>
+                    <EmailForm />
                     <div>
 
                     </div>
