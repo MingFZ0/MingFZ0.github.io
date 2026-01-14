@@ -2,6 +2,7 @@ import "./Contact.css";
 import pfp from "../assets/media/pfp.png";
 import mail from "../assets/media/icons/mail.png";
 import EmailForm from "./utility/EmailForm";
+import user from "../assets/media/icons/user.png";
 
 function Contact() {
     return (
@@ -16,17 +17,13 @@ function Contact() {
                         <img src={mail} />
                         <p>mingfengz1678@gmail.com</p>
                     </a>
-                </div>
-                
+                </div>       
             </div>
             <div className="Contact-Form">
                 <div className="Contact-Form-Display">
                     <EmailForm />
-                    <div>
-
-                    </div>
                 </div>
-                <img></img>
+                <img src={user} className="Contact-UserImg"></img>
             </div>
         </div>
     )

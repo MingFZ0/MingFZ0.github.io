@@ -1,3 +1,14 @@
+.EmailForm {
+    border: 1px solid #58afbbFF;
+    background-color: #58afbb2a;
+    padding: 30px 40px 30px 40px;
+    margin: 40px auto 0px auto;
+    
+    width: 500px;
+
+    border-radius: 15px;
+}
+
 .EmailForm-Wrapper {
     display: grid;
     grid-template-areas: 
@@ -5,20 +16,62 @@
         "Label-Subject Input-Subject"
         "Label-Message Input-Message";
 
-    width: 80%;
-    gap: 10px;
-
-    border: 1px solid black;
-    padding: 20px 40px 20px 40px;
-    margin: 40px auto 0px auto;
-
+    row-gap: 20px;
+    column-gap: 30px;   
+    justify-content: center;
 }
 
 .EmailForm-Wrapper > * {
     text-align: left;
     width: fit-content;
+    font-family: "Work Sans";
 }
 
-.EmailForm-Wrapper > input {
+.EmailForm-Wrapper > Label {
+    font-weight: bold;
+    color: #58afbb;
+    border-bottom: 2px solid rgb(88, 149, 187);
+    height: min-content;
+}
+
+.EmailForm-Wrapper > input, .EmailForm-Wrapper > textarea {
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(88, 149, 187);
+    color: #8b8b8bFF;
+}
+
+
+input[type="text"]:focus {
+    /* border: 2px solid #ff0000; */
+    outline: 2px solid #58afbb;
+}
+
+.Input-Message {
+    height: 300px;
+    padding: 5px;
+    resize: none;
+}
+
+.EmailForm-Button {
+    position: relative;
+    background: #58afbbFF;
+    border-radius: 10px;
+    color: white;
     width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align:center;
+    margin-left: auto;
+    margin-right: 10px;
+    border-bottom: 3px solid rgb(88, 149, 187);
+}
+
+.EmailForm-Button > p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }

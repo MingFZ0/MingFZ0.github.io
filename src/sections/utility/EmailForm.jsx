@@ -9,9 +9,11 @@ function EmailForm() {
                 <label form="Subject" className="Label-Subject">Subject</label>
                 <input type="text" name="Subject" className="Input-Subject"></input>
                 <label form="Message" className="Label-Message">Message</label>
-                <input type="text" className="Input-Message"></input>
+                <textarea type="text" className="Input-Message"></textarea>
             </form>
-            <button></button>
+            <button className="EmailForm-Button">
+                <p>Send</p>
+            </button>
         </div>
     )
 }
