@@ -84,34 +84,184 @@
         }
     }
 
+    
+    
+    @keyframes Shift-Right {
+        0% {
+            translate: -100px 0px;
+        }
+    }
+    @keyframes Right-Current {
+        0% {
+            font-size: 24px;
+            color: #838282FF;
+        }
+    }
+    @keyframes Right-Prev {
+        0% {
+            font-size: 18px;
+            color: #cfcfcfFF;
+            /* margin-bottom: 5px; */
+        }
+    }
+    @keyframes Right-Next {
+        0% {
+            font-size: 36px;
+            color: #58afbbFF;
+        }
+    }
+
     #ShiftUp-Next {
         animation-name: Shift-Left;
         animation-duration: 0.4s;
     }
-
     #ShiftUp-Next > label {
         animation-name: Left-Next;
         animation-duration: 0.7s;
     }
-
     #ShiftUp-Current {
         animation-name: Shift-Left;
         animation-duration: 0.4s;
     }
-
     #ShiftUp-Current > label {
         animation-name: Up-Current;
         animation-duration: 0.7s;
     }
-
     #ShiftUp-Previous {
         animation-name: Shift-Left;
         animation-duration: 0.4s;
     }
-
     #ShiftUp-Previous > label {
         animation-name: Left-Prev;
         animation-duration: 0.7s;
     }
+
+    #ShiftDown-Next {
+        animation-name: Shift-Right;
+        animation-duration: 0.4s;
+    }
+    #ShiftDown-Next > label {
+        animation-name: Right-Next;
+        animation-duration: 0.7s;
+    }
+    #ShiftDown-Current {
+        animation-name: Shift-Right;
+        animation-duration: 0.4s;
+    }
+    #ShiftDown-Current > label {
+        animation-name: Right-Current;
+        animation-duration: 0.7s;
+    }
+    #ShiftDown-Previous {
+        animation-name: Shift-Right;
+        animation-duration: 0.4s;
+    }
+    #ShiftDown-Previous > label {
+        animation-name: Right-Prev;
+        animation-duration: 0.7s;
+    }
     
+}
+
+@media (max-width: 700px) {
+    .Details {
+        padding-top: 0px;
+    }
+
+    #Details-Cards-Group {
+        border-left: none;
+        width: 100%;
+    }
+
+    #Details-Cards {
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    #Details-Cards-Background {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .Details-Sections-Current {
+        margin: 40px 20px 40px 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* .Details-Sections-Current > Label {
+        font-size: 24px;
+    }
+    
+    .Details-Sections-Previous > label, .Details-Sections-Next > label {
+        font-size: 18px;
+    } */
+    
+    #Details-Sections {
+        display: flex;
+        flex-direction: column;
+    }
+    #Details-Sections > * {
+        margin: 10px;
+    }
+    .Details-Sections-Current > .BorderDiv {
+        width: 80px;
+    }
+
+    .Details-Sections.Previous > Label {
+        font-size: 18px;
+    }
+
+    #ShiftDown-Next {
+        animation-name: Shift-down;
+        animation-duration: 0.4s;
+    }
+    #ShiftDown-Next > label {
+        animation-name: Down-Next;
+        animation-duration: 0.7s;
+    }
+    #ShiftDown-Current {
+        animation-name: Shift-down;
+        animation-duration: 0.4s;
+    }
+    #ShiftDown-Current > label {
+        animation-name: Down-Current;
+        animation-duration: 0.7s;
+    }
+    #ShiftDown-Previous {
+        animation-name: Shift-down;
+        animation-duration: 0.4s;
+    }
+    #ShiftDown-Previous > label {
+        animation-name: Down-Prev;
+        animation-duration: 0.7s;
+    }
+
+    #ShiftUp-Next {
+        animation-name: Shift-up;
+        animation-duration: 0.4s;
+    }
+    #ShiftUp-Next > label {
+        animation-name: Up-Next;
+        animation-duration: 0.7s;
+    }
+    #ShiftUp-Current {
+        animation-name: Shift-up;
+        animation-duration: 0.4s;
+    }
+    #ShiftUp-Current > label {
+        animation-name: Up-Current;
+        animation-duration: 0.7s;
+    }
+    #ShiftUp-Previous {
+        animation-name: Shift-up;
+        animation-duration: 0.4s;
+    }
+    #ShiftUp-Previous > label {
+        animation-name: Up-Prev;
+        animation-duration: 0.7s;
+    }
+
 }

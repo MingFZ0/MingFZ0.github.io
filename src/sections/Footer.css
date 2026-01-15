@@ -14,3 +14,10 @@
     border-bottom: 1px solid #8b8b8bFF;
     margin-bottom: 2px;
 }
+
+#Footer-Contact {
+    margin-top: 20px;
+}
+#Footer-Contact > * {
+    margin: 5px;
+}
