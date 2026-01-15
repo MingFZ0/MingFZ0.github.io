@@ -22,22 +22,26 @@
 }
 
 #Cover-Card p {
+    text-align: left;
     font-size: 24px;
 }
 
 #Cover-Card h2 {
+    text-align: left;
     font-size: 36px;
     font-weight: bold;
     color: rgb(79, 189, 195);
 }
 
 #Cover-Card h3 {
+    text-align: left;
     font-size: 30px;
     font-weight: bold;
     color: #4ba0a5FF;
 }
 
 #Cover-Card h4 {
+    text-align: left;
     font-size: 24px;
     font-weight: normal;
     color: #838282FF;
@@ -64,4 +68,19 @@
 
     margin-top: 15px;
     padding-left: 280px;
+}
+
+@media (max-width: 700px) {
+    #Cover-Card {
+        top: 130px;
+        left: 50px;
+    }
+}
+
+@media (max-width: 470px) {
+    #Cover-Card {
+        top: 50px;
+        left: 30px;
+        right: 20px;
+    }
 }
