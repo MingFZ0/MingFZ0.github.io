@@ -4,13 +4,11 @@
     /* text-align: center; */
     /* height: 5em; */
     background-color: rgb(254, 254, 254);
-    /* margin-left: 20%;
-    margin-right: 20%; */
 
     grid: 1rem / 1fr 1fr 1fr 1fr 1fr; 
     column-gap: 10%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #Header-Title {
@@ -37,51 +35,34 @@
     position: absolute;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 870px) {
     .Header {
-        margin-left: 15%;
-        margin-right: 15%;
+        column-gap: 5%;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 720px) {
+
     .Header {
-        margin-left: 10%;
-        margin-right: 10%;
+        top: 2.5svh; 
     }
 }
 
-@media (max-width: 800px) {
-    .Header {
-        margin-left: 5%;
-        margin-right: 5%;
+@media (max-width: 700px) {
+    #Header {
+        display: block;
+    }
+
+    #Header-Title {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3px;
+        width: 100%;
+        border-bottom: 2px solid rgb(152, 151, 151);
+    }
+
+    #Header-Descriptor {
+        margin-top: 0px;
     }
 }
 
-@media (max-width: 600px) {
-    .Header {
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-}
-
-@media (max-width: 450px) {
-
-    .Header {
-        top: 2.5svh;
-    }
-
-    .Header .NavControlDiv {
-        margin-top: 3.2em;
-        display: inline-block;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    #Name {
-        position: absolute;
-        top: 0svh;
-        left: 10svw;
-        right: 10svw;
-    }
-}

@@ -5,6 +5,9 @@ import EmailForm from "./utility/EmailForm";
 import user from "../assets/media/icons/user.png";
 
 function Contact() {
+
+
+
     return (
         <div className="Contact">
             <h2 id="Contact-Title">Contact</h2>
@@ -19,12 +22,12 @@ function Contact() {
                     </a>
                 </div>       
             </div>
-            <div className="Contact-Form">
+            {/* <div className="Contact-Form">
                 <div className="Contact-Form-Display">
                     <EmailForm />
                 </div>
                 <img src={user} className="Contact-UserImg"></img>
-            </div>
+            </div> */}
         </div>
     )
 }

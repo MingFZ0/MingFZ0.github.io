@@ -1,9 +1,11 @@
 .Details {
     /* margin-top: 70px; */
+    padding-top: 100px;
+
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 40% auto;
-    margin: 70px 7% 0 7%;
+    margin: 0px 7% 0 7%;
 
     align-items: center;
     align-content: stretch;

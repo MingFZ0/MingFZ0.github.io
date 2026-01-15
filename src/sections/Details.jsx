@@ -218,7 +218,7 @@ function Details() {
     console.log(prevIndex, displayIndex, nextIndex);
 
     return( 
-        <div className="Details">
+        <div className="Details" id="Details">
             <form id="Details-Sections" key={current}>
                 <div className="Details-Sections-Previous" id={getSectionShiftName("Previous")}>
                     <input className="Details-Sections-Radio" name="Section" id={prev} value={prev} type="radio" onClick={() => handleSelect(prevIndex)} />

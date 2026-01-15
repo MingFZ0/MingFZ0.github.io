@@ -17,3 +17,9 @@
 .NavControlButton:hover {
     color:#97cec7;
 }
+
+@media (max-width: 700px) {
+    .NavControlDiv {
+        display: none;
+    }
+}

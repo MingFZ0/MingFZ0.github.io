@@ -23,7 +23,7 @@ function Technology() {
     }
 
     return (
-        <div className="Technology" onMouseOver={handleSelect}>
+        <div className="Technology" id="Technology" onMouseOver={handleSelect}>
             <h2 id="Technology-Title">Technology</h2>
             <div className="BorderDiv" />
             <Carousel />

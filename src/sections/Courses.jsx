@@ -46,7 +46,7 @@ function Courses() {
     }
 
     return (
-        <div className="Courses">
+        <div className="Courses" id="Courses">
             <h2 className="Courses-Header">Relevant Courses</h2>
             <div className="Courses-Header-BorderDiv" />
             <div className="Courses-Display">

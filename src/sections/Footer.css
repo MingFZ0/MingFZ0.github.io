@@ -1,0 +1,16 @@
+.Footer {
+    margin-top: 50px;
+}
+
+.Footer > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Footer-BorderDiv {
+    display: flex;
+    justify-self: center;
+    width: 70px;
+    border-bottom: 1px solid #8b8b8bFF;
+    margin-bottom: 2px;
+}
