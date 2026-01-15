@@ -1,0 +1,39 @@
+@media (max-width: 950px) {
+    .Details {
+        grid-template-columns: 30% auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .Details {
+        display: block;
+    }
+
+    #Details-Sections {
+        display: inline;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 50px 0 50px 0;
+    }
+
+    #Details-Sections > * {
+        display: inline-block;
+    }
+
+    .Details-Sections-Radio {
+        display: none;
+        margin: 0;
+        background: none;
+    }
+    
+    .Details-Sections-Current .BorderDiv {
+        /* display: none; */
+        width: 100%;
+    }
+
+    .Details-Sections-Current {
+        margin: 0px 40px 0px 40px;
+    }
+
+    
+}

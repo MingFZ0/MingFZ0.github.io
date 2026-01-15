@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Details-1.css";
 import "./Details-2.css";
+import "./Details-3.css";
 
 
 

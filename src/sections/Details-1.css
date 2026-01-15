@@ -11,7 +11,6 @@
     align-content: stretch;
     justify-items: center;
     justify-content: stretch;
-
 }
 
 #Details-Sections {
@@ -25,7 +24,8 @@
 }
 
 #Details-Sections > * {
-    margin: 40px 0 40px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #Details-Sections > div > label {
@@ -72,6 +72,7 @@
 .Details-Sections-Radio:checked {
     background: #9bccd3FF;
 }
+
 
 @keyframes Shift-up {
     0% {
