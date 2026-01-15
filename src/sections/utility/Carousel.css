@@ -54,3 +54,89 @@
   border-radius: 15px;
 
 }
+
+@media (max-width:1000px) {
+    .Carousel-Container::-webkit-scrollbar {
+        height: 15px;
+        max-width: 40px;
+        scrollbar-width: thin;
+    }
+
+    .Carousel-Container::-webkit-scrollbar-track-piece:start {
+        margin-left: 4rem; 
+    }
+
+    .Carousel-Container::-webkit-scrollbar-track-piece:end {
+        margin-right: 4rem; 
+    }
+}
+
+@media (max-width:1000px) {
+    .Carousel-Container::-webkit-scrollbar {
+        height: 15px;
+        max-width: 40px;
+        scrollbar-width: thin;
+    }
+
+    .Carousel-Container::-webkit-scrollbar-track-piece:start {
+        margin-left: 4rem; 
+    }
+
+    .Carousel-Container::-webkit-scrollbar-track-piece:end {
+        margin-right: 4rem; 
+    }
+}
+
+@media (max-width: 800px) {
+    .Carousel-Container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+        display: grid;
+        flex-direction: row;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: start;
+        align-content: start;
+        justify-items: center;
+        justify-content: start;
+
+        row-gap: 40px;
+        column-gap: 20px;
+    }
+
+    .Carousel-Container::-webkit-scrollbar {
+        height: 15px;
+        max-width: 40px;
+        scrollbar-width: thin;
+    }
+
+    .Carousel-Container::-webkit-scrollbar-track-piece:start {
+        margin-left: 1rem; 
+    }
+
+    .Carousel-Container::-webkit-scrollbar-track-piece:end {
+        margin-right: 1rem; 
+    }
+}
+
+@media (max-width: 650px) {
+    .Carousel-Container {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        row-gap: 30px;
+        column-gap: 20px;
+        
+    }
+}
+
+@media (max-width: 500px) {
+    .Carousel-Container {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+}

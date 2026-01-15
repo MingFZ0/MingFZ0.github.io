@@ -17,3 +17,11 @@
     font-size: 18px;
     color: #838282FF;
 }
+
+@media (max-width: 800px) {
+    .ItemPanel img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+}
