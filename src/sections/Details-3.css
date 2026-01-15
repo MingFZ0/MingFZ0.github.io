@@ -7,6 +7,7 @@
 @media (max-width: 900px) {
     .Details {
         display: block;
+        padding-top: 50px;
     }
 
     #Details-Sections {
@@ -35,5 +36,82 @@
         margin: 0px 40px 0px 40px;
     }
 
+    .Details-Sections-Previous label {
+        font-size: 24px;
+        color: #838282FF;
+    }
+
+    #Details-Cards-Group {
+        border-left: 5px solid #d1d1d1;
+        border-radius: 2px;
+    }
+
+    #Details-Cards {
+        margin-left: 0;
+    }
+
+    #Details-Cards-Background {
+        margin-left: 10px;
+    }
+
+    @keyframes Shift-Left {
+        0% {
+            translate: 100px 0px;
+        }
+    }
+
+    @keyframes Left-Current {
+        0% {
+            font-size: 24px;
+            color: #838282FF;
+            /* margin-bottom: 5px; */
+        }
+
+    }
+
+    @keyframes Left-Prev {
+        0% {
+            font-size: 36px;
+            color: #58afbbFF;
+            /* margin-bottom: 5px; */
+        }
+    }
+
+    @keyframes Left-Next {
+        0% {
+            font-size: 18px;
+            color: #cfcfcfFF;
+        }
+    }
+
+    #ShiftUp-Next {
+        animation-name: Shift-Left;
+        animation-duration: 0.4s;
+    }
+
+    #ShiftUp-Next > label {
+        animation-name: Left-Next;
+        animation-duration: 0.7s;
+    }
+
+    #ShiftUp-Current {
+        animation-name: Shift-Left;
+        animation-duration: 0.4s;
+    }
+
+    #ShiftUp-Current > label {
+        animation-name: Up-Current;
+        animation-duration: 0.7s;
+    }
+
+    #ShiftUp-Previous {
+        animation-name: Shift-Left;
+        animation-duration: 0.4s;
+    }
+
+    #ShiftUp-Previous > label {
+        animation-name: Left-Prev;
+        animation-duration: 0.7s;
+    }
     
 }
