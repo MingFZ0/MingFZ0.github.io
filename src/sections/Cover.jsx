@@ -15,7 +15,7 @@ function Cover() {
                     <p>I'm a</p>
                     <h2>Full Stack Developer</h2>
                     <p>Interested in</p>
-                    <h3>Web Dev. & Embedded Sys.</h3>
+                    <h3>Web & App Dev.</h3>
                     <h4>Based in NYC</h4>
                 </div>
                 <div id ="Cover-Contact">

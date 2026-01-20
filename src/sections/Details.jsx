@@ -50,19 +50,19 @@ function Details() {
 
     const Projects = [
         {
-            "Img": mediaPlayer,
-            "Github": "https://github.com/MingFZ0/MIDI-Embedded-Player",
-            "Title": "Embedded MIDI Music Player",
-            "Type": "Embedded",
-            "Tech": ["C"],
-            "Description": "Recreated a fully functioning MIDI music player on an ARM Cortex Microcontroller using C with extremely accurate tone precision"
-        }, {
             "Img": pharma,
             "Github": "https://github.com/MingFZ0/Management-Portal",
             "Title": "Pharmaceutical Employee Portal",
             "Type": "Full Stack",
             "Tech": ["React.js", "MongoDB", "Deployment"],
             "Description": "Develop an enterprise-scale full-stack React app to mimic the internal operation management of a medical company"
+        }, {
+            "Img": mediaPlayer,
+            "Github": "https://github.com/MingFZ0/MIDI-Embedded-Player",
+            "Title": "Embedded MIDI Music Player",
+            "Type": "Embedded",
+            "Tech": ["C"],
+            "Description": "Recreated a fully functioning MIDI music player on an ARM Cortex Microcontroller using C with extremely accurate tone precision"
         }, {
             "Img": nutrition,
             "Github": "https://github.com/MingFZ0/NutritionApp",
@@ -80,14 +80,14 @@ function Details() {
             "Img": eater,
             "Github": "https://github.com/MingFZ0/Eater-Unity",
             "Title": "Eater",
-            "Type": "Full Stack",
+            "Type": "Game Dev",
             "Tech": ["C#", "Unity"],
             "Description": "A strategic survival card-game that scores the player based on the cards that are scored and played"
         }, {
             "Img": comboTutorial,
             "Github": "https://github.com/MingFZ0/ComboTutorial",
             "Title": "Combo Tutorial",
-            "Type": "Full Stack",
+            "Type": "Game Dev",
             "Tech": ["C#", "Unity"],
             "Description": "Proof of concept fighting game that utilizes a data-driven system to implement character attacks and movesets"
         }
