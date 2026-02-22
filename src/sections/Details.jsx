@@ -8,6 +8,7 @@ import "./Details-3.css";
 import SSE from "../assets/media/icons/company/sse.png";
 import mw from "../assets/media/icons/company/mwscience.png";
 
+import masqueradeBanner from "../assets/media/screenshots/masquerade.png";
 import mediaPlayer from "../assets/media/screenshots/embedded.png";
 import pharma from "../assets/media/screenshots/pharma.png";
 import uFund from "../assets/media/screenshots/uFund.png";
@@ -17,6 +18,9 @@ import comboTutorial from "../assets/media/screenshots/comboTutorial.png";
 
 import rit from "../assets/media/icons/company/rit.png";
 import midwood from "../assets/media/icons/company/midwood.png";
+
+import globaljam from "../assets/media/icons/sites/globaljam.png";
+import masquerade from "../assets/media/icons/sites/masquerade.png";
 
 import ExperienceCard from "./utility/ExperienceCard";
 import ProjectCard from "./utility/ProjectCard";
@@ -53,41 +57,55 @@ function Details() {
             "Img": pharma,
             "Github": "https://github.com/MingFZ0/Management-Portal",
             "Title": "Pharmaceutical Employee Portal",
-            "Type": "Full Stack",
+            "Type": ["Full Stack", "Team"],
             "Tech": ["React.js", "MongoDB", "Deployment"],
             "Description": "Develop an enterprise-scale full-stack React app to mimic the internal operation management of a medical company"
-        }, {
+        },
+        {
+            "Img": masqueradeBanner,
+            "Github": "https://github.com/The-Masked-Muchachos/Masquerade",
+            "Title": "Masquerade",
+            "Type": ["Game Dev", "Team"],
+            "Tech": ["Unity", "C#"],
+            "Links": {
+                "Img": [globaljam, masquerade],
+                "Link": ["https://globalgamejam.org/games/2026/masquerade-4-2", "https://the-masked-muchachos.github.io/Masquerade/"]
+            },
+            "Description": "A light puzzle game that takes place in a parade of people wearing masquerade masks. There are multiple types of masks, each does something different when you activate them by clicking. You'll need to figure out what each mask does to beat all 9 levels."
+        },
+         {
             "Img": mediaPlayer,
             "Github": "https://github.com/MingFZ0/MIDI-Embedded-Player",
             "Title": "Embedded MIDI Music Player",
-            "Type": "Embedded",
+            "Type": ["Embedded"],
             "Tech": ["C"],
             "Description": "Recreated a fully functioning MIDI music player on an ARM Cortex Microcontroller using C with extremely accurate tone precision"
-        }, {
+        }, 
+        {
             "Img": nutrition,
             "Github": "https://github.com/MingFZ0/NutritionApp",
             "Title": "Nutrition App",
-            "Type": "Full Stack",
+            "Type": ["Full Stack", "Team"],
             "Tech": ["Java", "Sprint Boot"],
             "Description": "Java terminal-based application used to manage daily nutrition intake and workout"
         }, {
             "Img": uFund,
             "Title": "U-Fund: Save The Bees",
-            "Type": "Full Stack",
+            "Type": ["Full Stack","Team"],
             "Tech": ["Angular", "Java", "Sprint Boot"],
             "Description": "Charity website in which organizations can use to create and host events to promote bee preservation"
         }, {
             "Img": eater,
             "Github": "https://github.com/MingFZ0/Eater-Unity",
             "Title": "Eater",
-            "Type": "Game Dev",
+            "Type": ["Game Dev"],
             "Tech": ["C#", "Unity"],
             "Description": "A strategic survival card-game that scores the player based on the cards that are scored and played"
         }, {
             "Img": comboTutorial,
             "Github": "https://github.com/MingFZ0/ComboTutorial",
             "Title": "Combo Tutorial",
-            "Type": "Game Dev",
+            "Type": ["Game Dev"],
             "Tech": ["C#", "Unity"],
             "Description": "Proof of concept fighting game that utilizes a data-driven system to implement character attacks and movesets"
         }
@@ -187,6 +205,7 @@ function Details() {
                         Tech={project["Tech"]}
                         Description={project["Description"]}
                         Github={project["Github"]}
+                        Links={project["Links"]}
                     />
                 )
             })

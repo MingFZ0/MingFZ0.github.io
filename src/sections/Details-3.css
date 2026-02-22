@@ -198,6 +198,11 @@
     .Details-Sections-Previous > label, .Details-Sections-Next > label {
         font-size: 18px;
     } */
+
+    .Details {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     
     #Details-Sections {
         display: flex;

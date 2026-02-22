@@ -9,11 +9,14 @@ function ProjectCard(props) {
 
     const displayTech = () => {
         let ls = [];
-        ls.push(
-            <ProjectCardTag
-                Color="#7cb7bd"
-                Tag={props.Type}/>
-        )
+        props.Type.map((value) => {
+            ls.push(
+                <ProjectCardTag
+                    Color="#7cb7bd"
+                    Tag={value}/>
+            )
+        })
+        
 
         props.Tech.map((value) => {
             ls.push(
@@ -27,17 +30,36 @@ function ProjectCard(props) {
     }
 
     const displayLinks = () => {
+        let ls = [];
+
         if (props.Github != null) {
-            return (
+            ls.push(
                 <ImgButton 
                     href={props.Github}
                     img={Github}/>
-            )   
-        } else {
-            return (
-                <div style={{marginBottom: "10px"}}></div>
             )
         }
+
+        if (props.Links != null) {
+
+            for (let i = 0; i < props.Links.Img.length; i++) {
+                console.log(props.Links.Img[i], props.Links.Link[i]);
+
+                ls.push(
+                    <ImgButton 
+                        img={props.Links.Img[i]}
+                        href={props.Links.Link[i]}/>
+                );
+            }
+        }
+
+        ls.push(
+            <div style={{marginBottom: "10px"}}></div>
+        )
+
+        return ls;
+
+        
     }
 
     return (

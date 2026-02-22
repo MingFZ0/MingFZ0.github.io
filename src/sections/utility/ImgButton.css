@@ -1,7 +1,18 @@
+.ImgButton {
+    margin: 0px 3px 0px 3px;
+}
+
 .ImgButton img {
     width: 30px;
     height: 30px;
     object-fit: contain;
     color: white;
 }
+
+.ImgButton img:hover {
+    width: 40px;
+    height: 40px;
+    margin-bottom: -10px;
+}
+
 
