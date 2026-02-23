@@ -3,8 +3,6 @@ import "./Details-1.css";
 import "./Details-2.css";
 import "./Details-3.css";
 
-
-
 import SSE from "../assets/media/icons/company/sse.png";
 import mw from "../assets/media/icons/company/mwscience.png";
 
@@ -25,6 +23,8 @@ import masquerade from "../assets/media/icons/sites/masquerade.png";
 import ExperienceCard from "./utility/ExperienceCard";
 import ProjectCard from "./utility/ProjectCard";
 import EducationCard from "./utility/EducationCard";
+import ProjectModal from "./utility/ProjectModal";
+
 
 function Details() {
 
@@ -34,6 +34,7 @@ function Details() {
     const [displayIndex, setDisplayIndex] = useState(0);
     const [nextIndex, setNextIndex] = useState(1);
     const [prevIndex, setPrevIndex] = useState(sections.length - 1);
+    const [showProjectModal, setShowProjectModal] = useState(false);
 
     const Experiences = [
         {
@@ -180,6 +181,7 @@ function Details() {
     const displayCards = () => {
 
         let ls = [];
+        let i = 0;
         
         if (current == "Experience") {
             Experiences.map((experience) => {
@@ -197,17 +199,20 @@ function Details() {
         }
         else if (current == "Projects") {
             Projects.map((project) => {
-                ls.push(
-                    <ProjectCard
-                        Img={project["Img"]}
-                        Title={project["Title"]}
-                        Type={project["Type"]}
-                        Tech={project["Tech"]}
-                        Description={project["Description"]}
-                        Github={project["Github"]}
-                        Links={project["Links"]}
-                    />
-                )
+                if (i < 5) {
+                    ls.push(
+                        <ProjectCard
+                            Img={project["Img"]}
+                            Title={project["Title"]}
+                            Type={project["Type"]}
+                            Tech={project["Tech"]}
+                            Description={project["Description"]}
+                            Github={project["Github"]}
+                            Links={project["Links"]}
+                        />
+                    )
+                }
+                i++;
             })
         }
         else if (current == "Education") {
@@ -223,6 +228,12 @@ function Details() {
             })
         }
 
+        if (i >= 5) {ls.push(
+            <div onClick={() => setShowProjectModal(true)}>
+                <ProjectCard onClick={() => setShowProjectModal(true)}/>
+            </div>
+        )}
+
         return ls;
         
     }
@@ -233,6 +244,19 @@ function Details() {
         } else {
             return ("ShiftDown-" + name);
         }
+    }
+
+    const displayControl = () => {
+        if (current == "Projects") {
+            return (
+                <div>
+                    <button className="View-All-Projects-Btn" onClick={() => setShowProjectModal(true)}>
+                    View All Projects
+                    </button>
+                    {showProjectModal && <ProjectModal Projects={Projects} ShowModal={(val) => setShowProjectModal(val)}/>}
+                </div>
+            )
+        }   
     }
 
     console.log(prevIndex, displayIndex, nextIndex);
@@ -259,8 +283,13 @@ function Details() {
                     {displayCards()}
                 </div>
                 <div id="Details-Cards-Background"></div>
+                <div className="Controls">
+                    {displayControl()}
+                </div>
+                
             </div>
         </div>
+        
     )
 }
 

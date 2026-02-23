@@ -62,20 +62,30 @@ function ProjectCard(props) {
         
     }
 
-    return (
-        <div className="ProjectCard">
-            <img className="ProjectCard-Img" src={props.Img}></img>
-            <h2 className="ProjectCard-Title">{props.Title}</h2>
-            <div className="ProjectCard-Tech-Group">
-                {displayTech()}
+    if (props.Img == null) {
+        return (
+            <div className="ProjectCard" id="Alt-View-All-Projects-Btn">
+                <h2>...</h2>
             </div>
-            <p className="ProjectCard-Description">{props.Description}</p>
-            <div className="ProjectCard-Links">
-                {displayLinks()}
-            </div>
+        )
+    }
+    else {
+        return (
+            <div className="ProjectCard">
+                <img className="ProjectCard-Img" src={props.Img}></img>
+                <h2 className="ProjectCard-Title">{props.Title}</h2>
+                <div className="ProjectCard-Tech-Group">
+                    {displayTech()}
+                </div>
+                <p className="ProjectCard-Description">{props.Description}</p>
+                <div className="ProjectCard-Links">
+                    {displayLinks()}
+                </div>
 
-        </div>
-    )
+            </div>
+        )
+    }
+    
 }
 
 export default ProjectCard;
