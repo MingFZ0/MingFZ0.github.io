@@ -37,8 +37,8 @@
     }
 
     .Details-Sections-Previous label {
-        font-size: 24px;
-        color: #838282FF;
+        font-size: 18px;
+        /* color: #838282FF; */
     }
 
     #Details-Cards-Group {
@@ -83,9 +83,7 @@
             color: #cfcfcfFF;
         }
     }
-
-    
-    
+   
     @keyframes Shift-Right {
         0% {
             translate: -100px 0px;
