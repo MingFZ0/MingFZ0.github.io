@@ -1,10 +1,11 @@
 .Controls {
     width: 100%;
     position: absolute;
+    /* z-index: 5; */
 }
 
 #Alt-View-All-Projects-Btn {
-    background-color: #58afbbFF;
+    background-color: rgb(132, 197, 206);
     border: none;
     color:white;
 }
@@ -20,6 +21,8 @@
     cursor: pointer;
     font-size: 16px;
     font-family: "Work Sans";
+    top: 400px;
+    z-index: 5;
 }
 
 #Alt-View-All-Projects-Btn:hover, .View-All-Projects-Btn:hover {
@@ -73,5 +76,16 @@
 @media (max-width: 768px) {
     .Projects-Grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .View-All-Projects-Btn {
+        top: -25px;
+    }
+
+    #Alt-View-All-Projects-Btn {
+        display: none;
     }
 }

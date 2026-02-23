@@ -260,6 +260,10 @@ function Details() {
     }
 
     console.log(prevIndex, displayIndex, nextIndex);
+    
+    if (window.innerWidth < 600) {
+
+    }
 
     return( 
         <div className="Details" id="Details">
@@ -279,14 +283,13 @@ function Details() {
                 </div>
             </form>
             <div id="Details-Cards-Group">
+                <div className="Controls">
+                    {displayControl()}
+                </div>
                 <div id="Details-Cards">
                     {displayCards()}
                 </div>
                 <div id="Details-Cards-Background"></div>
-                <div className="Controls">
-                    {displayControl()}
-                </div>
-                
             </div>
         </div>
         
