@@ -17,7 +17,6 @@ function Technology() {
         let technology = document.querySelector(".Technology");
         let myScroll = document.querySelector(".Carousel-Container");
         technology.addEventListener("wheel", (e) => {
-            e.preventDefault();
             myScroll.scrollLeft += (e.deltaY * 1.5);
         });
     }

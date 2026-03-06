@@ -259,15 +259,26 @@ function Details() {
         }   
     }
 
-    console.log(prevIndex, displayIndex, nextIndex);
-    
-    if (window.innerWidth < 600) {
+    const displayScrollIndicator = (obj, index) => {
+        console.log(obj);
+        // if (index <= 0) {obj}
+    }
 
+    const getIndicatorArrow = (isUp) => {
+        if (isUp && displayIndex > 0) {
+            return <div className="Scroll-Indicator" id="Details-Sections-Top-Arrow" onClick={() => handleSelect(prevIndex)}></div>
+        }
+        else if (!isUp && displayIndex < sections.length - 1) {
+            return <div className="Scroll-Indicator" id="Details-Sections-Bottom-Arrow" onClick={() => handleSelect(nextIndex)}></div>
+        } else {
+            return <div className="Empty-Scroll-Indicator"/>
+        }
     }
 
     return( 
         <div className="Details" id="Details">
-            <form id="Details-Sections" key={current}>
+            <form id="Details-Sections" key={current} >
+                {getIndicatorArrow(true)}
                 <div className="Details-Sections-Previous" id={getSectionShiftName("Previous")}>
                     <input className="Details-Sections-Radio" name="Section" id={prev} value={prev} type="radio" onClick={() => handleSelect(prevIndex)} />
                     <label htmlFor={prev}>{prev}</label>
@@ -281,6 +292,7 @@ function Details() {
                     <input className="Details-Sections-Radio" name="Section" id={next} value={next} type="radio" onClick={() => handleSelect(nextIndex)}/>
                     <label htmlFor={next}>{next}</label>
                 </div>
+                {getIndicatorArrow(false)}
             </form>
             <div id="Details-Cards-Group">
                 <div className="Controls">
