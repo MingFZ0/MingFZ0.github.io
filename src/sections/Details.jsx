@@ -19,6 +19,7 @@ import midwood from "../assets/media/icons/company/midwood.png";
 
 import globaljam from "../assets/media/icons/sites/globaljam.png";
 import masquerade from "../assets/media/icons/sites/masquerade.png";
+import web from "../assets/media/icons/sites/web.png";
 
 import ExperienceCard from "./utility/ExperienceCard";
 import ProjectCard from "./utility/ProjectCard";
@@ -37,6 +38,18 @@ function Details() {
     const [showProjectModal, setShowProjectModal] = useState(false);
 
     const Experiences = [
+        {
+            "Img": rit,
+            "Date": "May 2026 - Current",
+            "Title": "Data Research & Development",
+            "Company": "National General Aviation Flight Information Database",
+            "Description": "An open-source Java flight data management web service that analyzes and highlights common risks across flights and various aircraft",
+            "Links": {
+                "Img": [web],
+                "Link": ["https://ngafid.org/"]
+            },
+        },
+
         {
             "Img": SSE,
             "Date": "Aug. 2025– Dec. 2025",
