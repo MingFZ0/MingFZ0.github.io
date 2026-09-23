@@ -13,6 +13,7 @@ import uFund from "../assets/media/screenshots/uFund.png";
 import nutrition from "../assets/media/screenshots/nutrition.png";
 import eater from "../assets/media/screenshots/eater.png";
 import comboTutorial from "../assets/media/screenshots/comboTutorial.png";
+import cct from "../assets/media/screenshots/cct.png";
 
 import rit from "../assets/media/icons/company/rit.png";
 import midwood from "../assets/media/icons/company/midwood.png";
@@ -67,6 +68,14 @@ function Details() {
     ]
 
     const Projects = [
+        {
+            "Img": cct,
+            "Title": "Chinese Conversation Clubsite",
+            "Type": ["Web Dev"],
+            "Tech": ["Next.js", "React.js", "Figma"],
+            "Description": "Architected and deployed a production web application using Next.js and React on Vercel, establishing continuous deployment and reliable cloud hosting for the Chinese Conversation Table Club at RIT."
+        },
+
         {
             "Img": pharma,
             "Github": "https://github.com/MingFZ0/Management-Portal",
